@@ -1,12 +1,15 @@
+// 1.tool function
 //create DOM element
 function tag(tagName){
     return document.createElement(tagName);
 }
 
 //create popup_down, enter div's id via para1 and nutrition name, nutrition percent via para2 and para3 respectively
+var index =0;
 function createPopUp1(entID, nutriName, nutriPercent){
     var div = tag('div');
     div.id = entID
+    div.className = 'all'+index
     var title = tag('h2');
     title.textContent = nutriName;
     div.appendChild(title);
@@ -30,6 +33,7 @@ function createPopUp1(entID, nutriName, nutriPercent){
     desc2.textContent = 'Percentage of Various Nutrients Required Daily';
     div.appendChild(desc2);
 
+    index ++;
     return div;
 }
 
@@ -40,7 +44,7 @@ function createPopUp2(entID, imgUrl){
     var divImg = tag('div');
     divImg.className = 'divImg';
     divImg.style.background = imgUrl;
-    console.log(divImg);
+    // console.log(divImg);
     div.appendChild(divImg);
 
     var title = tag('h3');
@@ -60,7 +64,7 @@ function createPopUp2(entID, imgUrl){
     div.appendChild(content);
     var line = tag('hr');
     div.appendChild(line);
-    console.log(div);
+    // console.log(div);
 
     var title = tag('h3');
     title.textContent = 'AMOUNT PER DAY';
@@ -76,6 +80,7 @@ function createPopUp2(entID, imgUrl){
 }
 
 //draw ring chart, and set svg's id via entId
+
 function drawRingchart(entId){
     var dataset = {
     inner: [50, 24, 16, 5, 2, 3],
@@ -85,19 +90,21 @@ function drawRingchart(entId){
         height = 300,
         cwidth = 30;
 
+    var svg = d3.select("#popup_left").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .attr('class','ringChart')
+    .attr("id", entId)
+    .append("g")
+    .attr("transform", "translate(" + (-80 + width / 3) + "," + (height / 3 -10) + ")")
+
     var color = d3.scale.category20c();
 
     var pie = d3.layout.pie()
         .sort(null);
 
     var arc = d3.svg.arc();
-    var svg = d3.select("#popup_left").append("svg")
-        .attr("width", width)
-        .attr("height", height)
-        .attr('class','ringChart')
-        .attr("id", entId)
-        .append("g")
-        .attr("transform", "translate(" + (-80 + width / 3) + "," + (height / 3 -10) + ")")
+    
 
     var gs = svg.selectAll("g").data(d3.values(dataset)).enter().append("g");
     var path = gs.selectAll("path")
@@ -151,11 +158,15 @@ function drawRingchart(entId){
 
 //position popup window to certain div as my icon, the popup will appear when the mouse hover at "myicon",
 //while whichpop determines which kind of popup to choose: popup_left or popup_down
+
 function positionPopUp(entID,whichpop){
     var myicon = document.getElementById(entID);
     var currentPop = document.getElementById(whichpop);
 
     function showPopup(evt) {
+    
+        myicon.style = "cursor:pointer;opacity:0.95";
+        
         var iconPos = myicon.getBoundingClientRect();
         if(whichpop == 'popup_left'){
             currentPop.style.left = (iconPos.right + 20) + "px";
@@ -169,23 +180,26 @@ function positionPopUp(entID,whichpop){
         currentPop.style.display = "block";
     }
     function hidePopup(evt) {
+        myicon.style = "opacity:0.6";
         currentPop.style.display = "none";
     }
     myicon.addEventListener("mouseover", showPopup);
     myicon.addEventListener("mouseout", hidePopup);
-}
 
-//final popup_left operation
-function enterCont(nutriName,nutriPercent){
-    var pop1 = createPopUp1('popup_left', nutriName,nutriPercent);
-    document.body.appendChild(pop1);
-    var ring = drawRingchart('ringchart');
 }
+//final popup_left operation
 var nutriCont = [
     {'name':'total fat231','percentage':'8%'},
     {'name':'Protein','percentage':'65%'}
-]
-//监听全局点击事件
+]   
+function enterCont(nutriName,nutriPercent){
+    var pop1 = createPopUp1('popup_left', nutriName,nutriPercent);
+    var ring = drawRingchart('ringchart');
+    document.body.appendChild(pop1);
+}
+
+///////////////////////////////////////////////////////////////////////
+//2.监听全局点击事件
 document.onmouseover = function(eee){
     tarNum = eee.target.className.baseVal;
     var list=[]
@@ -194,23 +208,18 @@ document.onmouseover = function(eee){
         list=[];
         list.push(nutriCont[0]);
         enterCont(list[0].name,list[0].percentage)
+        positionPopUp("myicon",'popup_left');
         break;
         
         case 'st60':
         list=[];
         list.push(nutriCont[1]);
         enterCont(list[0].name,list[0].percentage)
-        
+        positionPopUp("myicon2",'popup_left');
         break;
     }
         
-
-positionPopUp("myicon",'popup_left');
-positionPopUp("myicon2",'popup_left');
-    
 }
-
-
 
 
 

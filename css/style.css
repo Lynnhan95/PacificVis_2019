@@ -173,7 +173,7 @@ body{
         .st70{font-family:'Helvetica';}
         .st71{font-size:9px;}
 
-.st54:hover{opacity:0.81;cursor:pointer}
+/* .st54:hover{opacity:0.95;cursor:pointer} */
 .st29:hover{cursor: pointer;stroke-width: 4px;}
 .st23:hover{cursor: pointer;stroke-width: 4px;}
 .st10:hover{cursor:pointer;}
@@ -188,6 +188,7 @@ body{
     position: absolute;
     display: none;
     text-align: left;
+    overflow: hidden;
   }
   
 #popup_left::before {
