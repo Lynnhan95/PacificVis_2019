@@ -187,14 +187,29 @@ var nutriCont = [
 ]
 //监听全局点击事件
 document.onmouseover = function(eee){
-    console.log(eee.target.className.baseVal);
-}
-// console.log(nutriCont[0].percentage)
-enterCont(nutriCont[0].name,nutriCont[0].percentage)    
-
+    tarNum = eee.target.className.baseVal;
+    var list=[]
+    switch(tarNum){
+        case 'st54':
+        list=[];
+        list.push(nutriCont[0]);
+        enterCont(list[0].name,list[0].percentage)
+        break;
+        
+        case 'st60':
+        list=[];
+        list.push(nutriCont[1]);
+        enterCont(list[0].name,list[0].percentage)
+        
+        break;
+    }
+        
 
 positionPopUp("myicon",'popup_left');
 positionPopUp("myicon2",'popup_left');
+    
+}
+
 
 
 
