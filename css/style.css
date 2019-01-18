@@ -188,7 +188,7 @@ body{
     position: absolute;
     display: none;
     text-align: left;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
 #popup_left::before {

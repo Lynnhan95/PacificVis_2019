@@ -1,3 +1,13 @@
+//dataset
+var nutriInfo = [
+    {'name':'total fat','percentage':'10%'},
+    {'name':'vitamin c','percentage':'40%'},
+]
+
+var nutriPercent = [
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [40,60]},
+];
 // 1.tool function
 //create DOM element
 function tag(tagName){
@@ -5,16 +15,39 @@ function tag(tagName){
 }
 
 //create popup_down, enter div's id via para1 and nutrition name, nutrition percent via para2 and para3 respectively
-var index =0;
-function createPopUp1(entID, nutriName, nutriPercent){
+// var temp = [];
+// var hovered = false;
+// document.addEventListener('mouseover',myfunction)
+
+// function myfunction(eee){
+//     hovered = true;
+//     tarNum = eee.target.className.baseVal;
+//     console.log(tarNum);
+//     switch (tarNum){
+//         case 'st54':
+//         temp = [];
+//         temp.push(nutriInfo[0])
+        
+//         break;
+
+//         case 'st60':
+//         temp = [];
+//         temp.push(nutriInfo[1])
+//         break;
+//     }
+//     console.log(hovered)
+//     return temp
+// }
+
+
+function createPopUp1(entID,index){
     var div = tag('div');
     div.id = entID
-    div.className = 'all'+index
     var title = tag('h2');
-    title.textContent = nutriName;
+    title.innerHTML = nutriInfo[index].name;
     div.appendChild(title);
     var content = tag('p');
-    content.textContent = nutriPercent;
+    content.innerHTML = nutriInfo[index].percentage;
     div.appendChild(content);
 
     var desc = tag('h4');
@@ -33,7 +66,6 @@ function createPopUp1(entID, nutriName, nutriPercent){
     desc2.textContent = 'Percentage of Various Nutrients Required Daily';
     div.appendChild(desc2);
 
-    index ++;
     return div;
 }
 
@@ -80,23 +112,10 @@ function createPopUp2(entID, imgUrl){
 }
 
 //draw ring chart, and set svg's id via entId
-
 function drawRingchart(entId){
-    var dataset = {
-    inner: [50, 24, 16, 5, 2, 3],
-    outer: [9,91],
-    };
     var width = 460,
         height = 300,
         cwidth = 30;
-
-    var svg = d3.select("#popup_left").append("svg")
-    .attr("width", width)
-    .attr("height", height)
-    .attr('class','ringChart')
-    .attr("id", entId)
-    .append("g")
-    .attr("transform", "translate(" + (-80 + width / 3) + "," + (height / 3 -10) + ")")
 
     var color = d3.scale.category20c();
 
@@ -104,9 +123,15 @@ function drawRingchart(entId){
         .sort(null);
 
     var arc = d3.svg.arc();
-    
+    var svg = d3.select("#popup_left").append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .attr('class','ringChart')
+        .attr("id", entId)
+        .append("g")
+        .attr("transform", "translate(" + (-80 + width / 3) + "," + (height / 3 -10) + ")")
 
-    var gs = svg.selectAll("g").data(d3.values(dataset)).enter().append("g");
+    var gs = svg.selectAll("g").data(d3.values(nutriPercent[0])).enter().append("g");
     var path = gs.selectAll("path")
         .data(function(d) { return pie(d); })
         .enter().append("path")
@@ -182,45 +207,60 @@ function positionPopUp(entID,whichpop){
     function hidePopup(evt) {
         myicon.style = "opacity:0.6";
         currentPop.style.display = "none";
+
     }
     myicon.addEventListener("mouseover", showPopup);
     myicon.addEventListener("mouseout", hidePopup);
 
 }
-//final popup_left operation
-var nutriCont = [
-    {'name':'total fat231','percentage':'8%'},
-    {'name':'Protein','percentage':'65%'}
-]   
-function enterCont(nutriName,nutriPercent){
-    var pop1 = createPopUp1('popup_left', nutriName,nutriPercent);
-    var ring = drawRingchart('ringchart');
-    document.body.appendChild(pop1);
-}
+
 
 ///////////////////////////////////////////////////////////////////////
 //2.监听全局点击事件
-document.onmouseover = function(eee){
-    tarNum = eee.target.className.baseVal;
-    var list=[]
-    switch(tarNum){
-        case 'st54':
-        list=[];
-        list.push(nutriCont[0]);
-        enterCont(list[0].name,list[0].percentage)
-        positionPopUp("myicon",'popup_left');
-        break;
-        
-        case 'st60':
-        list=[];
-        list.push(nutriCont[1]);
-        enterCont(list[0].name,list[0].percentage)
-        positionPopUp("myicon2",'popup_left');
-        break;
-    }
-        
-}
+// var nutriCont = [
+//     {'name':'total fat231','percentage':'8%'},
+//     {'name':'Protein','percentage':'65%'}
+// ]  
 
+// document.onmouseover = function(eee){
+//     tarNum = eee.target.className.baseVal;
+//     var list=[]
+//     switch(tarNum){
+//         case 'st54':
+//         console.log('first');
+//         list=[];
+//         list.push(nutriCont[0]);
+//         enterCont(list[0].name,list[0].percentage)
+//         positionPopUp("myicon",'popup_left');
+//         break;
+        
+//         case 'st60':
+//         list=[];
+//         list.push(nutriCont[1]);
+//         enterCont(list[0].name,list[0].percentage)
+//         positionPopUp("myicon2",'popup_left');
+//         break;
+//     }
+        
+// }
+document.onmouseover = function(eee){
+    num = eee.target.className.baseVal
+    console.log(num);
+    switch(num){
+        case 'st54':
+        pop1 = createPopUp1('popup_left',0);
+        document.body.appendChild(pop1);
+        ring = drawRingchart('ringchart');
+
+        case 'st60':
+        pop1 = createPopUp1('popup_left',1);
+        document.body.appendChild(pop1);
+        ring = drawRingchart('ringchart');
+    }
+    
+    positionPopUp('myicon','popup_left')
+    positionPopUp('myicon2','popup_left')
+}
 
 
 var pop2 = createPopUp2('popup_down',"#000 url('images/walnut2.jpg') no-repeat");
