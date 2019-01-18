@@ -40,14 +40,16 @@ function tag(tagName){
 // }
 
 
-function createPopUp1(entID,index){
+function createPopUp1(entID){
     var div = tag('div');
     div.id = entID
     var title = tag('h2');
-    title.innerHTML = nutriInfo[index].name;
+    title.id = 'nutriName'
+    title.innerHTML = '';
     div.appendChild(title);
     var content = tag('p');
-    content.innerHTML = nutriInfo[index].percentage;
+    content.id = 'nutriPercent'
+    content.innerHTML = '';
     div.appendChild(content);
 
     var desc = tag('h4');
@@ -243,18 +245,27 @@ function positionPopUp(entID,whichpop){
 //     }
         
 // }
+var pop1 = createPopUp1('popup_left');
+document.body.appendChild(pop1);
+function changeText(info1,info2){
+    var name = document.getElementById('nutriName');
+    var percent = document.getElementById('nutriPercent');
+    name.innerHTML = info1
+    percent.innerHTML = info2
+}
 document.onmouseover = function(eee){
     num = eee.target.className.baseVal
     console.log(num);
+    // pop1 = createPopUp1('popup_left');
     switch(num){
         case 'st54':
-        pop1 = createPopUp1('popup_left',0);
-        document.body.appendChild(pop1);
+        var info1 = nutriInfo[0].name;
+        var info2 = nutriInfo[0].percentage;
+        changeText(info1, info2);
         ring = drawRingchart('ringchart');
 
         case 'st60':
-        pop1 = createPopUp1('popup_left',1);
-        document.body.appendChild(pop1);
+
         ring = drawRingchart('ringchart');
     }
     
