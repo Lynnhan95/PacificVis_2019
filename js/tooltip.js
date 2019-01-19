@@ -8,6 +8,12 @@ var nutriPercent = [
     {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
     {inner: [50, 24, 16, 5, 2, 3],outer: [40,60]},
 ];
+
+var foodInfo = [
+    {'gi-level':'Low','color':'Brown','category':'Legumes','amount':'1oz','url':"background: #000 url('images/walnut2.jpg') no-repeat"},
+    {'gi-level':'High','color':'white','category':'Legumes','amount':'1oz','url':"background: #000 url('images/walnut2.jpg') no-repeat"},
+
+]
 // 1.tool function
 //create DOM element
 function tag(tagName){
@@ -72,29 +78,45 @@ function createPopUp1(entID){
 }
 
 //create popup_left, enter div's id via para1
-function createPopUp2(entID, imgUrl){
+function createPopUp2(entID){
     var div = tag('div');
     div.id = entID;
     var divImg = tag('div');
     divImg.className = 'divImg';
-    divImg.style.background = imgUrl;
+    divImg.id = 'divImg'
+    divImg.style.background = "";
     // console.log(divImg);
     div.appendChild(divImg);
 
     var title = tag('h3');
+    title.id = 'gi-level'
+    title.textContent = 'GI Level';
+    div.appendChild(title);
+    var content = tag('p');
+    content.id = 'gi-level-value'
+    content.textContent = '';
+    div.appendChild(content);
+    var line = tag('hr');
+    div.appendChild(line);
+
+    var title = tag('h3');
+    title.id = 'color'
     title.textContent = 'COLOR';
     div.appendChild(title);
     var content = tag('p');
-    content.textContent = 'Brown';
+    content.textContent = '';
+    content.id = 'color-value'
     div.appendChild(content);
     var line = tag('hr');
     div.appendChild(line);
     
     var title = tag('h3');
     title.textContent = 'CATEGORY';
+    title.id = 'category'
     div.appendChild(title);
     var content = tag('p');
-    content.textContent = 'Legumes';
+    content.id = 'category-value'
+    content.textContent = '';
     div.appendChild(content);
     var line = tag('hr');
     div.appendChild(line);
@@ -102,19 +124,33 @@ function createPopUp2(entID, imgUrl){
 
     var title = tag('h3');
     title.textContent = 'AMOUNT PER DAY';
+    title.id = 'amount'
     div.appendChild(title);
     var content = tag('p');
-    content.textContent = '1 oz';
+    content.textContent = '';
+    content.id = 'amount-value'
     div.appendChild(content);
     var line = tag('hr');
     div.appendChild(line);
-    console.log(div);
+    // console.log(div);
 
     return div;
 }
+function changeText2(info1,info2,info3,info4,info5){
+    var dom1 = document.getElementById('gi-level-value');
+    var dom2 = document.getElementById('color-value');
+    var dom3 = document.getElementById('category-value');
+    var dom4 = document.getElementById('amount-value');
+    var dom5 = document.getElementById('divImg')
+    dom1.innerHTML = info1
+    dom2.innerHTML = info2
+    dom3.innerHTML = info3
+    dom4.innerHTML = info4
+    dom5.style = info5
+}
 
 //draw ring chart, and set svg's id via entId
-function drawRingchart(entId){
+function drawRingchart(entId,index){
     var width = 460,
         height = 300,
         cwidth = 30;
@@ -133,7 +169,7 @@ function drawRingchart(entId){
         .append("g")
         .attr("transform", "translate(" + (-80 + width / 3) + "," + (height / 3 -10) + ")")
 
-    var gs = svg.selectAll("g").data(d3.values(nutriPercent[0])).enter().append("g");
+    var gs = svg.selectAll("g").data(d3.values(nutriPercent[index])).enter().append("g");
     var path = gs.selectAll("path")
         .data(function(d) { return pie(d); })
         .enter().append("path")
@@ -180,6 +216,7 @@ function drawRingchart(entId){
             .style("fill","#525e6a")
         }
         drawRect();
+
     return svg
 }
 
@@ -247,36 +284,83 @@ function positionPopUp(entID,whichpop){
 // }
 var pop1 = createPopUp1('popup_left');
 document.body.appendChild(pop1);
+
+var pop2 = createPopUp2('popup_down');
+document.body.appendChild(pop2);
+
 function changeText(info1,info2){
     var name = document.getElementById('nutriName');
     var percent = document.getElementById('nutriPercent');
     name.innerHTML = info1
     percent.innerHTML = info2
 }
+function clearText(){
+    var name = document.getElementById('nutriName');
+    var percent = document.getElementById('nutriPercent');
+    name.innerHTML = ''
+}
 document.onmouseover = function(eee){
     num = eee.target.className.baseVal
     console.log(num);
     // pop1 = createPopUp1('popup_left');
+    var ind=0;
     switch(num){
         case 'st54':
+        ind = 0;
         var info1 = nutriInfo[0].name;
         var info2 = nutriInfo[0].percentage;
         changeText(info1, info2);
-        ring = drawRingchart('ringchart');
+        ind = 0;
+        break;
 
         case 'st60':
+        ind = 0;
+        var info1 = nutriInfo[1].name;
+        var info2 = nutriInfo[1].percentage;
+        changeText(info1, info2);
+        ind = 1;
+        break;
 
-        ring = drawRingchart('ringchart');
+        case 'st10 st70 st71':
+        info1 = foodInfo[0]["gi-level"]
+        info2 = foodInfo[0].color
+        info3 = foodInfo[0].category
+        info4 = foodInfo[0].amount
+        info5 = foodInfo[0].url
+        changeText2(info1,info2,info3,info4,info5)
+        break;
+
+        case 'st55':
+        info1 = foodInfo[1]["gi-level"]
+        info2 = foodInfo[1].color
+        info3 = foodInfo[1].category
+        info4 = foodInfo[1].amount
+        info5 = foodInfo[1].url
+        changeText2(info1,info2,info3,info4,info5)
+        break;
+
+
+        
     }
-    
+    console.log(ind)
+
+    ring = drawRingchart('ringchart',ind);
     positionPopUp('myicon','popup_left')
     positionPopUp('myicon2','popup_left')
+
+positionPopUp('myfood','popup_down');
+positionPopUp('myfood2','popup_down');
 }
 
+//pop2 内容全部改成0； 设置好其他的id，通过innerHTML改内容；加上：GI level（最前面）和对哪个身体部分好；
+// 背景通过style.css改
+//xhtml从外部引入json文件
+//原图,按感觉规
 
-var pop2 = createPopUp2('popup_down',"#000 url('images/walnut2.jpg') no-repeat");
-document.body.appendChild(pop2);
-positionPopUp('myfood','popup_down');
+
+
+
+
 
 
 
