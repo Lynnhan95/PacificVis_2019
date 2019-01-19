@@ -1,50 +1,9 @@
-//dataset
-var nutriInfo = [
-    {'name':'total fat','percentage':'10%'},
-    {'name':'vitamin c','percentage':'40%'},
-]
-
-var nutriPercent = [
-    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
-    {inner: [50, 24, 16, 5, 2, 3],outer: [40,60]},
-];
-
-var foodInfo = [
-    {'gi-level':'Low','color':'Brown','category':'Legumes','amount':'1oz','url':"background: #000 url('images/walnut2.jpg') no-repeat"},
-    {'gi-level':'High','color':'white','category':'Legumes','amount':'1oz','url':"background: #000 url('images/walnut2.jpg') no-repeat"},
-
-]
+if (nutriInfo || nutriPercent || foodInfo){
 // 1.tool function
 //create DOM element
 function tag(tagName){
     return document.createElement(tagName);
 }
-
-//create popup_down, enter div's id via para1 and nutrition name, nutrition percent via para2 and para3 respectively
-// var temp = [];
-// var hovered = false;
-// document.addEventListener('mouseover',myfunction)
-
-// function myfunction(eee){
-//     hovered = true;
-//     tarNum = eee.target.className.baseVal;
-//     console.log(tarNum);
-//     switch (tarNum){
-//         case 'st54':
-//         temp = [];
-//         temp.push(nutriInfo[0])
-        
-//         break;
-
-//         case 'st60':
-//         temp = [];
-//         temp.push(nutriInfo[1])
-//         break;
-//     }
-//     console.log(hovered)
-//     return temp
-// }
-
 
 function createPopUp1(entID){
     var div = tag('div');
@@ -222,7 +181,6 @@ function drawRingchart(entId,index){
 
 //position popup window to certain div as my icon, the popup will appear when the mouse hover at "myicon",
 //while whichpop determines which kind of popup to choose: popup_left or popup_down
-
 function positionPopUp(entID,whichpop){
     var myicon = document.getElementById(entID);
     var currentPop = document.getElementById(whichpop);
@@ -233,7 +191,13 @@ function positionPopUp(entID,whichpop){
         
         var iconPos = myicon.getBoundingClientRect();
         if(whichpop == 'popup_left'){
-            currentPop.style.left = (iconPos.right + 20) + "px";
+            // console.log(iconPos.right);
+            if(iconPos.right < 1200){
+                currentPop.style.left = (iconPos.right + 20) + "px";
+            }else{
+                currentPop.style.left = (iconPos.right - 350) + "px";
+            }
+            
             currentPop.style.top = (window.scrollY + iconPos.top - 70) + "px";
         }else if(whichpop == 'popup_down'){
             currentPop.style.left = (iconPos.right -144) + "px";
@@ -253,6 +217,17 @@ function positionPopUp(entID,whichpop){
 
 }
 
+function changeText(info1,info2){
+    var name = document.getElementById('nutriName');
+    var percent = document.getElementById('nutriPercent');
+    name.innerHTML = info1
+    percent.innerHTML = info2
+}
+function clearText(){
+    var name = document.getElementById('nutriName');
+    var percent = document.getElementById('nutriPercent');
+    name.innerHTML = ''
+}
 
 ///////////////////////////////////////////////////////////////////////
 //2.监听全局点击事件
@@ -288,37 +263,114 @@ document.body.appendChild(pop1);
 var pop2 = createPopUp2('popup_down');
 document.body.appendChild(pop2);
 
-function changeText(info1,info2){
-    var name = document.getElementById('nutriName');
-    var percent = document.getElementById('nutriPercent');
-    name.innerHTML = info1
-    percent.innerHTML = info2
-}
-function clearText(){
-    var name = document.getElementById('nutriName');
-    var percent = document.getElementById('nutriPercent');
-    name.innerHTML = ''
-}
 document.onmouseover = function(eee){
     num = eee.target.className.baseVal
-    console.log(num);
+    // console.log(num);
     // pop1 = createPopUp1('popup_left');
     var ind=0;
     switch(num){
-        case 'st54':
+        case 'st014':
         ind = 0;
-        var info1 = nutriInfo[0].name;
-        var info2 = nutriInfo[0].percentage;
+        info1 = nutriInfo[0].name;
+        info2 = nutriInfo[0].percentage;
         changeText(info1, info2);
         ind = 0;
         break;
 
-        case 'st60':
+        case 'st016':
         ind = 0;
-        var info1 = nutriInfo[1].name;
-        var info2 = nutriInfo[1].percentage;
+        info1 = nutriInfo[1].name;
+        info2 = nutriInfo[1].percentage;
         changeText(info1, info2);
         ind = 1;
+        break;
+
+        case 'st020':
+        ind = 0;
+        info1 = nutriInfo[2].name;
+        info2 = nutriInfo[2].percentage;
+        changeText(info1, info2);
+        ind = 2;
+        break;
+
+        case 'st025':
+        ind = 0;
+        info1 = nutriInfo[3].name;
+        info2 = nutriInfo[3].percentage;
+        changeText(info1, info2);
+        ind = 3;
+        break;
+
+        case 'st026':
+        ind = 0;
+        info1 = nutriInfo[4].name;
+        info2 = nutriInfo[4].percentage;
+        changeText(info1, info2);
+        ind = 4;
+        break;
+
+        case 'st041':
+        ind = 0;
+        info1 = nutriInfo[5].name;
+        info2 = nutriInfo[5].percentage;
+        changeText(info1, info2);
+        ind = 5;
+        break;
+
+        case 'st018':
+        ind = 0;
+        info1 = nutriInfo[6].name;
+        info2 = nutriInfo[6].percentage;
+        changeText(info1, info2);
+        ind = 6;
+        break;
+
+        case 'st019':
+        ind = 0;
+        info1 = nutriInfo[7].name;
+        info2 = nutriInfo[7].percentage;
+        changeText(info1, info2);
+        ind = 7;
+        break;
+
+        case 'st023':
+        ind = 0;
+        info1 = nutriInfo[8].name;
+        info2 = nutriInfo[8].percentage;
+        changeText(info1, info2);
+        ind = 8;
+        break;
+
+        case 'st180':
+        ind = 0;
+        info1 = nutriInfo[9].name;
+        info2 = nutriInfo[9].percentage;
+        changeText(info1, info2);
+        ind = 9;
+        break;
+
+        case 'st021':
+        ind = 0;
+        info1 = nutriInfo[10].name;
+        info2 = nutriInfo[10].percentage;
+        changeText(info1, info2);
+        ind = 10;
+        break;
+
+        case 'st022':
+        ind = 0;
+        info1 = nutriInfo[11].name;
+        info2 = nutriInfo[11].percentage;
+        changeText(info1, info2);
+        ind = 11;
+        break;
+
+        case 'st042':
+        ind = 0;
+        info1 = nutriInfo[12].name;
+        info2 = nutriInfo[12].percentage;
+        changeText(info1, info2);
+        ind = 12;
         break;
 
         case 'st10 st70 st71':
@@ -330,28 +382,31 @@ document.onmouseover = function(eee){
         changeText2(info1,info2,info3,info4,info5)
         break;
 
-        case 'st55':
-        info1 = foodInfo[1]["gi-level"]
-        info2 = foodInfo[1].color
-        info3 = foodInfo[1].category
-        info4 = foodInfo[1].amount
-        info5 = foodInfo[1].url
-        changeText2(info1,info2,info3,info4,info5)
-        break;
-
-
         
     }
-    console.log(ind)
+    // console.log(ind)
 
+    row1
     ring = drawRingchart('ringchart',ind);
     positionPopUp('myicon','popup_left')
     positionPopUp('myicon2','popup_left')
+    positionPopUp('myicon3','popup_left')
+    positionPopUp('myicon4','popup_left')
+    positionPopUp('myicon5','popup_left')
+    positionPopUp('myicon6','popup_left')
+    positionPopUp('myicon7','popup_left')
+    positionPopUp('myicon8','popup_left')
+    positionPopUp('myicon9','popup_left')
+    positionPopUp('myicon10','popup_left')
+    positionPopUp('myicon11','popup_left')
+    positionPopUp('myicon12','popup_left')
+    positionPopUp('myicon13','popup_left')
 
-positionPopUp('myfood','popup_down');
-positionPopUp('myfood2','popup_down');
+// positionPopUp('myfood','popup_down');
 }
-
+}else{
+    console.log('no data found')
+}
 //pop2 内容全部改成0； 设置好其他的id，通过innerHTML改内容；加上：GI level（最前面）和对哪个身体部分好；
 // 背景通过style.css改
 //xhtml从外部引入json文件
