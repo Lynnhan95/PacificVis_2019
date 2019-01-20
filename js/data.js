@@ -12,6 +12,193 @@ var nutriInfo = [
     {'name':'Copper','percentage':'19%'},
     {'name':'Manganese','percentage':'55%'},
     {'name':'Selenium','percentage':'7%'},
+    
+
+    {'name':'Calories','percentage':'8%'},
+    {'name':'Total Fat','percentage':'20%'},
+    {'name':'Protein','percentage':'9%'},
+    {'name':'Vitamin K','percentage':'12%'},
+    {'name':'Iron','percentage':'9%'},
+    {'name':'Magnesium','percentage':'18%'},
+    {'name':'Phosphorus','percentage':'14%'},
+    {'name':'Potassium','percentage':'5%'},
+    {'name':'Zinc','percentage':'10%'},
+    {'name':'Copper','percentage':'31%'},
+    {'name':'Manganese','percentage':'12%'},
+    {'name':'Selenium','percentage':'5%'},
+
+    {'name':'Dietary Fiber','percentage':'9%'},
+    {'name':'Total Fat','percentage':'21%'},
+    {'name':'Protein','percentage':'13%'},
+    {'name':'Vitamin E','percentage':'10%'},
+    {'name':'Vitamin K','percentage':'3%'},
+    {'name':'Niacin','percentage':'19%'},
+    {'name':'Magnesium','percentage':'12%'},
+    {'name':'Photsphorus','percentage':'10%'},
+    {'name':'Copper','percentage':'9%'},
+    {'name':'Manganese','percentage':'29%'},
+
+    {'name':'Manganese','percentage':'29%'},
+
+    {'name':'Carbohydrate','percentage':'7%'},
+    {'name':'Dietary Fiber','percentage':'14%'},
+    {'name':'Sugar','percentage':'70%'},
+    {'name':'Vitamin K','percentage':'36%'},
+    {'name':'Manganese','percentage':'25%'},
+
+    {'name':'Dietary Fiber','percentage':'9%'},
+    {'name':'Protein','percentage':'5%'},
+    {'name':'Vitamin A','percentage':'11%'},
+    {'name':'Vitamin C','percentage':'135%'},
+    {'name':'Vitamin K','percentage':'4%'},
+    {'name':'Riboflavin','percentage':'6%'},
+    {'name':'Vitamin B-6','percentage':'8%'},
+    {'name':'Pantothetic','percentage':'5%'},
+    {'name':'Magnesium','percentage':'5%'},
+    {'name':'Phosphorus','percentage':'6%'},
+    {'name':'Potassium','percentage':'8%'},
+    {'name':'Manganese','percentage':'10%'},
+
+    {'name':'Calories','percentage':'7%'},
+    {'name':'Total Fat','percentage':'18%'},
+    {'name':'Protein','percentage':'18%'},
+    {'name':'Thiamin','percentage':'17%'},
+    {'name':'Riboflav','percentage':'5%'},
+    {'name':'Iron','percentage':'23%'},
+    {'name':'Magnesium','percentage':'37%'},
+    {'name':'Photsphorus','percentage':'33%'},
+    {'name':'Potassium','percentage':'6%'},
+    {'name':'Zinc','percentage':'14%'},
+    {'name':'Copper','percentage':'19%'},
+
+    {'name':'Carbonhydrate','percentage':'7%'},
+    {'name':'Vitamin A','percentage':'8%'},
+    {'name':'Vitamin C','percentage':'145%'},
+    {'name':'Riboflav','percentage':'4%'},
+    {'name':'Vitamin B-6','percentage':'6%'},
+    {'name':'Vitamin','percentage':'10%'},
+    {'name':'Iron','percentage':'1%'},
+    {'name':'Potassium','percentage':'9%'},
+
+    {'name':'Calories','percentage':'5%'},
+    {'name':'Carbohydrate','percentage':'6%'},
+    {'name':'Dietary Fiber','percentage':'34'},
+    {'name':'Thiamin','percentage':'16%'},
+    {'name':'Vitamin B-6','percentage':'8%'},
+    {'name':'Vitamin B-12','percentage':'34%'},
+    {'name':'Iron','percentage':'12%'},
+    {'name':'Magnesium','percentage':'9%'},
+    {'name':'Photsphorus','percentage':'13%'},
+    {'name':'Potassium','percentage':'8%'},
+    {'name':'Zinc','percentage':'9%'},
+    {'name':'Copper','percentage':'7%'},
+    {'name':'Manganese','percentage':'10%'},
+
+    {'name':'Carbonhydrate','percentage':'7%'},
+    {'name':'Vitamin A','percentage':'12%'},
+    {'name':'Vitamin C','percentage':'146%'},
+    {'name':'Vitamin B-6','percentage':'3%'},
+    {'name':'Pantothetic','percentage':'7%'},
+    {'name':'Magnesium','percentage':'5%'},
+    {'name':'Potassium','percentage':'3%'},
+
+    {'name':'Dietary Fiber','percentage':'34%'},
+    {'name':'Vitamin K','percentage':'181%'},
+    {'name':'Magnesium','percentage':'6%'},
+    {'name':'Potassium','percentage':'5%'},
+    {'name':'Manganese','percentage':'13%'},
+
+    {'name':'Dietary Fiber','percentage':'5%'},
+    {'name':'Vitamin A','percentage':'206%'},
+    {'name':'Vitamin C','percentage':'134%'},
+    {'name':'Vitamin K','percentage':'684%'},
+    {'name':'Riboflav','percentage':'5%'},
+    {'name':'Vitamin B-6','percentage':'9%'},
+    {'name':'Calcium','percentage':'9%'},
+    {'name':'Iron','percentage':'6%'},
+    {'name':'Magnesium','percentage':'6%'},
+    {'name':'Potassium','percentage':'9%'},
+    {'name':'Copper','percentage':'10%'},
+    {'name':'Manganese','percentage':'26%'},
+
+    {'name':'Dietary Fiber','percentage':'5%'},
+    {'name':'Vitamin A','percentage':'48%'},
+    {'name':'Vitamin C','percentage':'21%'},
+    {'name':'Vitamin K','percentage':'230%'},
+    {'name':'Manganese','percentage':'5%'},
+
+    {'name':'Carbonhydrate','percentage':'9%'},
+    {'name':'Dietary Fiber','percentage':'16%'},
+    {'name':'Sugar','percentage':'35%'},
+    {'name':'Vitamin A','percentage':'377%'},
+    {'name':'Vitamin C','percentage':'5%'},
+    {'name':'Thiamin','percentage':'7%'},
+    {'name':'Riboflav','percentage':'5%'},
+    {'name':'Vitamin B','percentage':'14%'},
+    {'name':'Pantothetic','percentage':'11%'},
+    {'name':'Magnesium','percentage':'8%'},
+    {'name':'Photsphorus','percentage':'6%'},
+    {'name':'Potassium','percentage':'13%'},
+    {'name':'Copper','percentage':'10%'},
+    {'name':'Manganese','percentage':'17%'},
+
+    {'name':'Calories','percentage':'6%'},
+    {'name':'Total Fat','percentage':'6%'},
+    {'name':'Protein','percentage':'40%'},
+    {'name':'Vitamin A','percentage':'37%'},
+    {'name':'Thiamin','percentage':'14%'},
+    {'name':'Riboflav','percentage':'13%'},
+    {'name':'Niacin','percentage':'37%'},
+    {'name':'Vitamin B-6','percentage':'19%'},
+    {'name':'Vitamin','percentage':'80%'},
+    {'name':'Pantothetic','percentage':'9%'},
+    {'name':'Iron','percentage':'5%'},
+    {'name':'Magnesium','percentage':'11%'},
+    {'name':'Photsphorus','percentage':'22%'},
+    {'name':'Potassium','percentage':'6%'},
+    {'name':'Selennium','percentage':'44%'},
+    
+    {'name':'Calories','percentage':'10%'},
+    {'name':'Vitamin D','percentage':'63%'},
+    {'name':'Vitamin E','percentage':'9%'},
+    {'name':'Thiamin','percentage':'5%'},
+    {'name':'Riboflav','percentage':'5%'},
+    {'name':'Niacin','percentage':'24%'},
+    {'name':'Vitamin B-6','percentage':'8%'},
+    {'name':'Vitamin','percentage':'14%'},
+    {'name':'Pantothetic','percentage':'6%'},
+    {'name':'Calcium','percentage':'35%'},
+    {'name':'Iron','percentage':'15%'},
+    {'name':'Magnesium','percentage':'9%'},
+    {'name':'Photsphorus','percentage':'45%'},
+    {'name':'Potassium','percentage':'10%'},
+    {'name':'Sodium','percentage':'19%'},
+    {'name':'Zinc','percentage':'8%'},
+    {'name':'Copper','percentage':'9%'},
+    {'name':'Manganese','percentage':'5%'},
+    {'name':'Selennium','percentage':'69%'},
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 ]
 
 var nutriPercent = [
@@ -28,6 +215,186 @@ var nutriPercent = [
     {inner: [50, 24, 16, 5, 2, 3],outer: [19,81]},
     {inner: [50, 24, 16, 5, 2, 3],outer: [55,45]},
     {inner: [50, 24, 16, 5, 2, 3],outer: [7,93]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [8,92]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [20,80]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [12,88]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [18,82]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [14,86]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [10,90]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [31,69]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [12,88]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [21,79]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [13,87]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [10,90]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [3,97]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [19,81]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [12,88]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [10,90]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [29,71]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [29,71]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [7,93]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [14,86]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [70,30]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [36,64]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [25,75]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [11,89]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [100,0]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [4,96]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [6,94]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [8,92]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [6,94]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [8,92]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [10,90]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [7,93]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [18,88]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [18,88]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [17,89]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,89]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [23,77]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [37,63]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [33,67]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [6,94]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [14,86]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [19,81]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [7,93]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [8,92]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [100,0]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [4,96]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [6,94]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [10,90]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [1,99]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [6,94]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [34,66]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [16,84]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [8,92]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [34,66]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [12,88]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [13,87]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [8,92]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [7,91]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [7,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [12,88]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [100,0]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [3,97]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [7,93]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [3,95]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [34,66]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [100,0]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [6,94]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [13,87]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [100,0]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [100,0]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [100,0]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [6,94]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [6,94]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [10,90]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [26,74]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [48,52]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [21,79]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [100,0]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [16,84]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [35,65]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [100,0]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [7,93]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [14,86]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [11,89]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [8,92]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [6,94]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [13,87]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [10,90]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [17,83]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [6,94]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [6,94]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [40,60]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [37,63]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [14,86]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [13,87]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [37,63]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [19,81]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [80,20]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [11,89]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [22,78]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [6,94]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [44,56]},
+
+    {inner: [50, 24, 16, 5, 2, 3],outer: [10,90]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [63,37]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [12,88]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [24,76]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [8,92]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [14,86]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [6,94]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [35,65]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [15,85]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [45,55]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [10,90]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [19,81]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [8,92]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [9,91]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [5,95]},
+    {inner: [50, 24, 16, 5, 2, 3],outer: [69,31]},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     
 ];
 
