@@ -1565,6 +1565,1663 @@ document.onmouseover = function(eee){
         ind = 161;
         break;
 
+        case 'st17-14':
+        ind = 0;
+        info1 = nutriInfo[162].name;
+        info2 = nutriInfo[162].percentage;
+        changeText(info1, info2);
+        ind = 162;
+        break;
+
+        case 'st17-20':
+        ind = 0;
+        info1 = nutriInfo[163].name;
+        info2 = nutriInfo[163].percentage;
+        changeText(info1, info2);
+        ind = 163;
+        break;
+
+        case 'st17-25':
+        ind = 0;
+        info1 = nutriInfo[164].name;
+        info2 = nutriInfo[164].percentage;
+        changeText(info1, info2);
+        ind = 164;
+        break;
+
+        case 'st17-36':
+        ind = 0;
+        info1 = nutriInfo[165].name;
+        info2 = nutriInfo[165].percentage;
+        changeText(info1, info2);
+        ind = 165;
+        break;
+
+        case 'st17-30':
+        ind = 0;
+        info1 = nutriInfo[166].name;
+        info2 = nutriInfo[166].percentage;
+        changeText(info1, info2);
+        ind = 166;
+        break;
+
+        case 'st17-33':
+        ind = 0;
+        info1 = nutriInfo[167].name;
+        info2 = nutriInfo[167].percentage;
+        changeText(info1, info2);
+        ind = 167;
+        break;
+
+        case 'st17-26':
+        ind = 0;
+        info1 = nutriInfo[168].name;
+        info2 = nutriInfo[168].percentage;
+        changeText(info1, info2);
+        ind = 168;
+        break;
+
+        case 'st17-39':
+        ind = 0;
+        info1 = nutriInfo[169].name;
+        info2 = nutriInfo[169].percentage;
+        changeText(info1, info2);
+        ind = 169;
+        break;
+
+        case 'st17-41':
+        ind = 0;
+        info1 = nutriInfo[170].name;
+        info2 = nutriInfo[170].percentage;
+        changeText(info1, info2);
+        ind = 170;
+        break;
+
+        case 'st17-34':
+        ind = 0;
+        info1 = nutriInfo[171].name;
+        info2 = nutriInfo[171].percentage;
+        changeText(info1, info2);
+        ind = 171;
+        break;
+
+        case 'st17-19':
+        ind = 0;
+        info1 = nutriInfo[172].name;
+        info2 = nutriInfo[172].percentage;
+        changeText(info1, info2);
+        ind = 172;
+        break;
+
+        case 'st17-23':
+        ind = 0;
+        info1 = nutriInfo[173].name;
+        info2 = nutriInfo[173].percentage;
+        changeText(info1, info2);
+        ind = 173;
+        break;
+
+        case 'st17-24':
+        ind = 0;
+        info1 = nutriInfo[174].name;
+        info2 = nutriInfo[174].percentage;
+        changeText(info1, info2);
+        ind = 174;
+        break;
+
+        case 'st17-18':
+        ind = 0;
+        info1 = nutriInfo[175].name;
+        info2 = nutriInfo[175].percentage;
+        changeText(info1, info2);
+        ind = 175;
+        break;
+
+        case 'st17-22':
+        ind = 0;
+        info1 = nutriInfo[176].name;
+        info2 = nutriInfo[176].percentage;
+        changeText(info1, info2);
+        ind = 176;
+        break;
+
+        case 'st17-42':
+        ind = 0;
+        info1 = nutriInfo[177].name;
+        info2 = nutriInfo[177].percentage;
+        changeText(info1, info2);
+        ind = 177;
+        break;
+
+        case 'st18-14':
+        ind = 0;
+        info1 = nutriInfo[178].name;
+        info2 = nutriInfo[178].percentage;
+        changeText(info1, info2);
+        ind = 178;
+        break;
+
+        case 'st18-25':
+        ind = 0;
+        info1 = nutriInfo[179].name;
+        info2 = nutriInfo[179].percentage;
+        changeText(info1, info2);
+        ind = 179;
+        break;
+
+        case 'st18-30':
+        ind = 0;
+        info1 = nutriInfo[180].name;
+        info2 = nutriInfo[180].percentage;
+        changeText(info1, info2);
+        ind = 180;
+        break;
+
+        case 'st18-33':
+        ind = 0;
+        info1 = nutriInfo[181].name;
+        info2 = nutriInfo[181].percentage;
+        changeText(info1, info2);
+        ind = 181;
+        break;
+
+        case 'st18-26':
+        ind = 0;
+        info1 = nutriInfo[182].name;
+        info2 = nutriInfo[182].percentage;
+        changeText(info1, info2);
+        ind = 182;
+        break;
+
+        case 'st18-39':
+        ind = 0;
+        info1 = nutriInfo[183].name;
+        info2 = nutriInfo[183].percentage;
+        changeText(info1, info2);
+        ind = 183;
+        break;
+
+        case 'st18-41':
+        ind = 0;
+        info1 = nutriInfo[184].name;
+        info2 = nutriInfo[184].percentage;
+        changeText(info1, info2);
+        ind = 184;
+        break;
+
+        case 'st18-34':
+        ind = 0;
+        info1 = nutriInfo[185].name;
+        info2 = nutriInfo[185].percentage;
+        changeText(info1, info2);
+        ind = 185;
+        break;
+
+        case 'st18-18':
+        ind = 0;
+        info1 = nutriInfo[186].name;
+        info2 = nutriInfo[186].percentage;
+        changeText(info1, info2);
+        ind = 186;
+        break;
+
+        case 'st18-19':
+        ind = 0;
+        info1 = nutriInfo[187].name;
+        info2 = nutriInfo[187].percentage;
+        changeText(info1, info2);
+        ind = 187;
+        break;
+
+        case 'st18-23':
+        ind = 0;
+        info1 = nutriInfo[188].name;
+        info2 = nutriInfo[188].percentage;
+        changeText(info1, info2);
+        ind = 188;
+        break;
+
+        case 'st18-24':
+        ind = 0;
+        info1 = nutriInfo[189].name;
+        info2 = nutriInfo[189].percentage;
+        changeText(info1, info2);
+        ind = 189;
+        break;
+
+        case 'st18-180':
+        ind = 0;
+        info1 = nutriInfo[190].name;
+        info2 = nutriInfo[190].percentage;
+        changeText(info1, info2);
+        ind = 190;
+        break;
+
+        case 'st18-42':
+        ind = 0;
+        info1 = nutriInfo[191].name;
+        info2 = nutriInfo[191].percentage;
+        changeText(info1, info2);
+        ind = 191;
+        break;
+
+        case 'st19-14':
+        ind = 0;
+        info1 = nutriInfo[192].name;
+        info2 = nutriInfo[192].percentage;
+        changeText(info1, info2);
+        ind = 192;
+        break;
+
+        case 'st19-25':
+        ind = 0;
+        info1 = nutriInfo[193].name;
+        info2 = nutriInfo[193].percentage;
+        changeText(info1, info2);
+        ind = 193;
+        break;
+
+        case 'st19-30':
+        ind = 0;
+        info1 = nutriInfo[194].name;
+        info2 = nutriInfo[194].percentage;
+        changeText(info1, info2);
+        ind = 194;
+        break;
+
+        case 'st19-33':
+        ind = 0;
+        info1 = nutriInfo[195].name;
+        info2 = nutriInfo[195].percentage;
+        changeText(info1, info2);
+        ind = 195;
+        break;
+
+        case 'st19-26':
+        ind = 0;
+        info1 = nutriInfo[196].name;
+        info2 = nutriInfo[196].percentage;
+        changeText(info1, info2);
+        ind = 196;
+        break;
+
+        case 'st19-39':
+        ind = 0;
+        info1 = nutriInfo[197].name;
+        info2 = nutriInfo[197].percentage;
+        changeText(info1, info2);
+        ind = 197;
+        break;
+
+        case 'st19-41':
+        ind = 0;
+        info1 = nutriInfo[198].name;
+        info2 = nutriInfo[198].percentage;
+        changeText(info1, info2);
+        ind = 198;
+        break;
+
+        case 'st19-34':
+        ind = 0;
+        info1 = nutriInfo[199].name;
+        info2 = nutriInfo[199].percentage;
+        changeText(info1, info2);
+        ind = 199;
+        break;
+
+        case 'st19-18':
+        ind = 0;
+        info1 = nutriInfo[200].name;
+        info2 = nutriInfo[200].percentage;
+        changeText(info1, info2);
+        ind = 200;
+        break;
+
+        case 'st19-19':
+        ind = 0;
+        info1 = nutriInfo[201].name;
+        info2 = nutriInfo[201].percentage;
+        changeText(info1, info2);
+        ind = 201;
+        break;
+
+        case 'st19-23':
+        ind = 0;
+        info1 = nutriInfo[202].name;
+        info2 = nutriInfo[202].percentage;
+        changeText(info1, info2);
+        ind = 202;
+        break;
+
+        case 'st19-24':
+        ind = 0;
+        info1 = nutriInfo[203].name;
+        info2 = nutriInfo[203].percentage;
+        changeText(info1, info2);
+        ind = 203;
+        break;
+
+        case 'st19-18':
+        ind = 0;
+        info1 = nutriInfo[204].name;
+        info2 = nutriInfo[204].percentage;
+        changeText(info1, info2);
+        ind = 204;
+        break;
+
+        case 'st19-42':
+        ind = 0;
+        info1 = nutriInfo[205].name;
+        info2 = nutriInfo[205].percentage;
+        changeText(info1, info2);
+        ind = 205;
+        break;
+
+        case 'st20-14':
+        ind = 0;
+        info1 = nutriInfo[206].name;
+        info2 = nutriInfo[206].percentage;
+        changeText(info1, info2);
+        ind = 206;
+        break;
+
+        case 'st20-25':
+        ind = 0;
+        info1 = nutriInfo[207].name;
+        info2 = nutriInfo[207].percentage;
+        changeText(info1, info2);
+        ind = 207;
+        break;
+
+        case 'st20-30':
+        ind = 0;
+        info1 = nutriInfo[208].name;
+        info2 = nutriInfo[208].percentage;
+        changeText(info1, info2);
+        ind = 208;
+        break;
+
+        case 'st20-33':
+        ind = 0;
+        info1 = nutriInfo[209].name;
+        info2 = nutriInfo[209].percentage;
+        changeText(info1, info2);
+        ind = 209;
+        break;
+
+        case 'st20-26':
+        ind = 0;
+        info1 = nutriInfo[210].name;
+        info2 = nutriInfo[210].percentage;
+        changeText(info1, info2);
+        ind = 210;
+        break;
+
+        case 'st20-39':
+        ind = 0;
+        info1 = nutriInfo[211].name;
+        info2 = nutriInfo[211].percentage;
+        changeText(info1, info2);
+        ind = 211;
+        break;
+
+        case 'st20-41':
+        ind = 0;
+        info1 = nutriInfo[212].name;
+        info2 = nutriInfo[212].percentage;
+        changeText(info1, info2);
+        ind = 212;
+        break;
+
+        case 'st20-18':
+        ind = 0;
+        info1 = nutriInfo[213].name;
+        info2 = nutriInfo[213].percentage;
+        changeText(info1, info2);
+        ind = 213;
+        break;
+
+        case 'st20-19':
+        ind = 0;
+        info1 = nutriInfo[214].name;
+        info2 = nutriInfo[214].percentage;
+        changeText(info1, info2);
+        ind = 214;
+        break;
+
+        case 'st20-23':
+        ind = 0;
+        info1 = nutriInfo[215].name;
+        info2 = nutriInfo[215].percentage;
+        changeText(info1, info2);
+        ind = 215;
+        break;
+
+        case 'st20-24':
+        ind = 0;
+        info1 = nutriInfo[216].name;
+        info2 = nutriInfo[216].percentage;
+        changeText(info1, info2);
+        ind = 216;
+        break;
+
+        case 'st20-180':
+        ind = 0;
+        info1 = nutriInfo[217].name;
+        info2 = nutriInfo[217].percentage;
+        changeText(info1, info2);
+        ind = 217;
+        break;
+
+        case 'st20-42':
+        ind = 0;
+        info1 = nutriInfo[218].name;
+        info2 = nutriInfo[218].percentage;
+        changeText(info1, info2);
+        ind = 218;
+        break;
+
+        case 'st21-14':
+        ind = 0;
+        info1 = nutriInfo[219].name;
+        info2 = nutriInfo[219].percentage;
+        changeText(info1, info2);
+        ind = 219;
+        break;
+
+        case 'st21-16':
+        ind = 0;
+        info1 = nutriInfo[220].name;
+        info2 = nutriInfo[220].percentage;
+        changeText(info1, info2);
+        ind = 220;
+        break;
+
+        case 'st21-20':
+        ind = 0;
+        info1 = nutriInfo[221].name;
+        info2 = nutriInfo[221].percentage;
+        changeText(info1, info2);
+        ind = 221;
+        break;
+
+        case 'st21-25':
+        ind = 0;
+        info1 = nutriInfo[222].name;
+        info2 = nutriInfo[222].percentage;
+        changeText(info1, info2);
+        ind = 222;
+        break;
+
+        case 'st21-34':
+        ind = 0;
+        info1 = nutriInfo[223].name;
+        info2 = nutriInfo[223].percentage;
+        changeText(info1, info2);
+        ind = 223;
+        break;
+
+        case 'st21-18':
+        ind = 0;
+        info1 = nutriInfo[224].name;
+        info2 = nutriInfo[224].percentage;
+        changeText(info1, info2);
+        ind = 224;
+        break;
+
+        case 'st21-22':
+        ind = 0;
+        info1 = nutriInfo[225].name;
+        info2 = nutriInfo[225].percentage;
+        changeText(info1, info2);
+        ind = 225;
+        break;
+
+        case 'st22-28':
+        ind = 0;
+        info1 = nutriInfo[226].name;
+        info2 = nutriInfo[226].percentage;
+        changeText(info1, info2);
+        ind = 226;
+        break;
+
+        case 'st22-16':
+        ind = 0;
+        info1 = nutriInfo[227].name;
+        info2 = nutriInfo[227].percentage;
+        changeText(info1, info2);
+        ind = 227;
+        break;
+
+        case 'st22-17':
+        ind = 0;
+        info1 = nutriInfo[228].name;
+        info2 = nutriInfo[228].percentage;
+        changeText(info1, info2);
+        ind = 228;
+        break;
+
+        case 'st22-25':
+        ind = 0;
+        info1 = nutriInfo[229].name;
+        info2 = nutriInfo[229].percentage;
+        changeText(info1, info2);
+        ind = 229;
+        break;
+
+        case 'st22-29':
+        ind = 0;
+        info1 = nutriInfo[230].name;
+        info2 = nutriInfo[230].percentage;
+        changeText(info1, info2);
+        ind = 230;
+        break;
+
+        case 'st22-31':
+        ind = 0;
+        info1 = nutriInfo[231].name;
+        info2 = nutriInfo[231].percentage;
+        changeText(info1, info2);
+        ind = 231;
+        break;
+
+        case 'st22-33':
+        ind = 0;
+        info1 = nutriInfo[232].name;
+        info2 = nutriInfo[232].percentage;
+        changeText(info1, info2);
+        ind = 232;
+        break;
+
+        case 'st22-39':
+        ind = 0;
+        info1 = nutriInfo[233].name;
+        info2 = nutriInfo[233].percentage;
+        changeText(info1, info2);
+        ind = 233;
+        break;
+
+        case 'st22-41':
+        ind = 0;
+        info1 = nutriInfo[234].name;
+        info2 = nutriInfo[234].percentage;
+        changeText(info1, info2);
+        ind = 234;
+        break;
+
+        case 'st22-19':
+        ind = 0;
+        info1 = nutriInfo[235].name;
+        info2 = nutriInfo[235].percentage;
+        changeText(info1, info2);
+        ind = 235;
+        break;
+
+        case 'st23-16':
+        ind = 0;
+        info1 = nutriInfo[236].name;
+        info2 = nutriInfo[236].percentage;
+        changeText(info1, info2);
+        ind = 236;
+        break;
+
+        case 'st23-17':
+        ind = 0;
+        info1 = nutriInfo[237].name;
+        info2 = nutriInfo[237].percentage;
+        changeText(info1, info2);
+        ind = 237;
+        break;
+
+        case 'st23-29':
+        ind = 0;
+        info1 = nutriInfo[238].name;
+        info2 = nutriInfo[238].percentage;
+        changeText(info1, info2);
+        ind = 238;
+        break;
+
+        case 'st23-31':
+        ind = 0;
+        info1 = nutriInfo[239].name;
+        info2 = nutriInfo[239].percentage;
+        changeText(info1, info2);
+        ind = 239;
+        break;
+
+        case 'st23-26':
+        ind = 0;
+        info1 = nutriInfo[240].name;
+        info2 = nutriInfo[240].percentage;
+        changeText(info1, info2);
+        ind = 240;
+        break;
+
+        case 'st23-34':
+        ind = 0;
+        info1 = nutriInfo[241].name;
+        info2 = nutriInfo[241].percentage;
+        changeText(info1, info2);
+        ind = 241;
+        break;
+
+        case 'st23-19':
+        ind = 0;
+        info1 = nutriInfo[242].name;
+        info2 = nutriInfo[242].percentage;
+        changeText(info1, info2);
+        ind = 242;
+        break;
+
+        case 'st23-23':
+        ind = 0;
+        info1 = nutriInfo[243].name;
+        info2 = nutriInfo[243].percentage;
+        changeText(info1, info2);
+        ind = 243;
+        break;
+
+        case 'st23-24':
+        ind = 0;
+        info1 = nutriInfo[244].name;
+        info2 = nutriInfo[244].percentage;
+        changeText(info1, info2);
+        ind = 244;
+        break;
+
+        case 'st24-16':
+        ind = 0;
+        info1 = nutriInfo[245].name;
+        info2 = nutriInfo[245].percentage;
+        changeText(info1, info2);
+        ind = 245;
+        break;
+
+        case 'st24-17':
+        ind = 0;
+        info1 = nutriInfo[246].name;
+        info2 = nutriInfo[246].percentage;
+        changeText(info1, info2);
+        ind = 246;
+        break;
+
+        case 'st24-29':
+        ind = 0;
+        info1 = nutriInfo[247].name;
+        info2 = nutriInfo[247].percentage;
+        changeText(info1, info2);
+        ind = 247;
+        break;
+
+        case 'st24-26':
+        ind = 0;
+        info1 = nutriInfo[248].name;
+        info2 = nutriInfo[248].percentage;
+        changeText(info1, info2);
+        ind = 248;
+        break;
+
+        case 'st24-18':
+        ind = 0;
+        info1 = nutriInfo[249].name;
+        info2 = nutriInfo[249].percentage;
+        changeText(info1, info2);
+        ind = 249;
+        break;
+
+        case 'st24-19':
+        ind = 0;
+        info1 = nutriInfo[250].name;
+        info2 = nutriInfo[250].percentage;
+        changeText(info1, info2);
+        ind = 250;
+        break;
+
+        case 'st24-24':
+        ind = 0;
+        info1 = nutriInfo[251].name;
+        info2 = nutriInfo[251].percentage;
+        changeText(info1, info2);
+        ind = 251;
+        break;
+
+        case 'st24-180':
+        ind = 0;
+        info1 = nutriInfo[252].name;
+        info2 = nutriInfo[252].percentage;
+        changeText(info1, info2);
+        ind = 252;
+        break;
+
+        case 'st24-21':
+        ind = 0;
+        info1 = nutriInfo[253].name;
+        info2 = nutriInfo[253].percentage;
+        changeText(info1, info2);
+        ind = 253;
+        break;
+
+        case 'st25-14':
+        ind = 0;
+        info1 = nutriInfo[254].name;
+        info2 = nutriInfo[254].percentage;
+        changeText(info1, info2);
+        ind = 254;
+        break;
+
+        case 'st25-17':
+        ind = 0;
+        info1 = nutriInfo[255].name;
+        info2 = nutriInfo[255].percentage;
+        changeText(info1, info2);
+        ind = 255;
+        break;
+
+        case 'st26-17':
+        ind = 0;
+        info1 = nutriInfo[256].name;
+        info2 = nutriInfo[256].percentage;
+        changeText(info1, info2);
+        ind = 256;
+        break;
+
+        case 'st26-32':
+        ind = 0;
+        info1 = nutriInfo[257].name;
+        info2 = nutriInfo[257].percentage;
+        changeText(info1, info2);
+        ind = 257;
+        break;
+
+        case 'st27-28':
+        ind = 0;
+        info1 = nutriInfo[258].name;
+        info2 = nutriInfo[258].percentage;
+        changeText(info1, info2);
+        ind = 258;
+        break;
+
+        case 'st28-14':
+        ind = 0;
+        info1 = nutriInfo[259].name;
+        info2 = nutriInfo[259].percentage;
+        changeText(info1, info2);
+        ind = 259;
+        break;
+
+        case 'st28-17':
+        ind = 0;
+        info1 = nutriInfo[260].name;
+        info2 = nutriInfo[260].percentage;
+        changeText(info1, info2);
+        ind = 260;
+        break;
+
+        case 'st28-35':
+        ind = 0;
+        info1 = nutriInfo[261].name;
+        info2 = nutriInfo[261].percentage;
+        changeText(info1, info2);
+        ind = 261;
+        break;
+
+        case 'st28-31':
+        ind = 0;
+        info1 = nutriInfo[262].name;
+        info2 = nutriInfo[262].percentage;
+        changeText(info1, info2);
+        ind = 262;
+        break;
+
+        case 'st29-14':
+        ind = 0;
+        info1 = nutriInfo[263].name;
+        info2 = nutriInfo[263].percentage;
+        changeText(info1, info2);
+        ind = 263;
+        break;
+
+        case 'st29-17':
+        ind = 0;
+        info1 = nutriInfo[264].name;
+        info2 = nutriInfo[264].percentage;
+        changeText(info1, info2);
+        ind = 264;
+        break;
+
+        case 'st29-35':
+        ind = 0;
+        info1 = nutriInfo[265].name;
+        info2 = nutriInfo[265].percentage;
+        changeText(info1, info2);
+        ind = 265;
+        break;
+
+        case 'st31-28':
+        ind = 0;
+        info1 = nutriInfo[266].name;
+        info2 = nutriInfo[266].percentage;
+        changeText(info1, info2);
+        ind = 266;
+        break;
+
+        case 'st31-16':
+        ind = 0;
+        info1 = nutriInfo[267].name;
+        info2 = nutriInfo[267].percentage;
+        changeText(info1, info2);
+        ind = 267;
+        break;
+
+        case 'st31-17':
+        ind = 0;
+        info1 = nutriInfo[268].name;
+        info2 = nutriInfo[268].percentage;
+        changeText(info1, info2);
+        ind = 268;
+        break;
+
+        case 'st31-32':
+        ind = 0;
+        info1 = nutriInfo[269].name;
+        info2 = nutriInfo[269].percentage;
+        changeText(info1, info2);
+        ind = 269;
+        break;
+
+        case 'st31-29':
+        ind = 0;
+        info1 = nutriInfo[270].name;
+        info2 = nutriInfo[270].percentage;
+        changeText(info1, info2);
+        ind = 270;
+        break;
+
+        case 'st31-35':
+        ind = 0;
+        info1 = nutriInfo[271].name;
+        info2 = nutriInfo[271].percentage;
+        changeText(info1, info2);
+        ind = 271;
+        break;
+
+        case 'st31-31':
+        ind = 0;
+        info1 = nutriInfo[272].name;
+        info2 = nutriInfo[272].percentage;
+        changeText(info1, info2);
+        ind = 272;
+        break;
+
+        case 'st31-18':
+        ind = 0;
+        info1 = nutriInfo[273].name;
+        info2 = nutriInfo[273].percentage;
+        changeText(info1, info2);
+        ind = 273;
+        break;
+
+        case 'st31-24':
+        ind = 0;
+        info1 = nutriInfo[274].name;
+        info2 = nutriInfo[274].percentage;
+        changeText(info1, info2);
+        ind = 274;
+        break;
+
+        case 'st32-14':
+        ind = 0;
+        info1 = nutriInfo[275].name;
+        info2 = nutriInfo[275].percentage;
+        changeText(info1, info2);
+        ind = 275;
+        break;
+
+        case 'st32-17':
+        ind = 0;
+        info1 = nutriInfo[276].name;
+        info2 = nutriInfo[276].percentage;
+        changeText(info1, info2);
+        ind = 276;
+        break;
+
+        case 'st32-20':
+        ind = 0;
+        info1 = nutriInfo[277].name;
+        info2 = nutriInfo[277].percentage;
+        changeText(info1, info2);
+        ind = 277;
+        break;
+
+        case 'st32-25':
+        ind = 0;
+        info1 = nutriInfo[278].name;
+        info2 = nutriInfo[278].percentage;
+        changeText(info1, info2);
+        ind = 278;
+        break;
+
+        case 'st32-32':
+        ind = 0;
+        info1 = nutriInfo[279].name;
+        info2 = nutriInfo[279].percentage;
+        changeText(info1, info2);
+        ind = 279;
+        break;
+
+        case 'st32-36':
+        ind = 0;
+        info1 = nutriInfo[280].name;
+        info2 = nutriInfo[280].percentage;
+        changeText(info1, info2);
+        ind = 280;
+        break;
+
+        case 'st32-30':
+        ind = 0;
+        info1 = nutriInfo[281].name;
+        info2 = nutriInfo[281].percentage;
+        changeText(info1, info2);
+        ind = 281;
+        break;
+
+        case 'st32-39':
+        ind = 0;
+        info1 = nutriInfo[282].name;
+        info2 = nutriInfo[282].percentage;
+        changeText(info1, info2);
+        ind = 282;
+        break;
+
+        case 'st32-41':
+        ind = 0;
+        info1 = nutriInfo[283].name;
+        info2 = nutriInfo[283].percentage;
+        changeText(info1, info2);
+        ind = 283;
+        break;
+
+        case 'st32-34':
+        ind = 0;
+        info1 = nutriInfo[284].name;
+        info2 = nutriInfo[284].percentage;
+        changeText(info1, info2);
+        ind = 284;
+        break;
+
+        case 'st32-19':
+        ind = 0;
+        info1 = nutriInfo[285].name;
+        info2 = nutriInfo[285].percentage;
+        changeText(info1, info2);
+        ind = 285;
+        break;
+
+        case 'st32-23':
+        ind = 0;
+        info1 = nutriInfo[286].name;
+        info2 = nutriInfo[286].percentage;
+        changeText(info1, info2);
+        ind = 286;
+        break;
+
+        case 'st32-24':
+        ind = 0;
+        info1 = nutriInfo[287].name;
+        info2 = nutriInfo[287].percentage;
+        changeText(info1, info2);
+        ind = 287;
+        break;
+
+        case 'st32-240':
+        ind = 0;
+        info1 = nutriInfo[288].name;
+        info2 = nutriInfo[288].percentage;
+        changeText(info1, info2);
+        ind = 288;
+        break;
+
+        case 'st32-18':
+        ind = 0;
+        info1 = nutriInfo[289].name;
+        info2 = nutriInfo[289].percentage;
+        changeText(info1, info2);
+        ind = 289;
+        break;
+
+        case 'st32-42':
+        ind = 0;
+        info1 = nutriInfo[290].name;
+        info2 = nutriInfo[290].percentage;
+        changeText(info1, info2);
+        ind = 290;
+        break;
+
+        case 'st33-14':
+        ind = 0;
+        info1 = nutriInfo[291].name;
+        info2 = nutriInfo[291].percentage;
+        changeText(info1, info2);
+        ind = 291;
+        break;
+
+        case 'st33-28':
+        ind = 0;
+        info1 = nutriInfo[292].name;
+        info2 = nutriInfo[292].percentage;
+        changeText(info1, info2);
+        ind = 292;
+        break;
+
+        case 'st33-16':
+        ind = 0;
+        info1 = nutriInfo[293].name;
+        info2 = nutriInfo[293].percentage;
+        changeText(info1, info2);
+        ind = 293;
+        break;
+
+        case 'st33-17':
+        ind = 0;
+        info1 = nutriInfo[294].name;
+        info2 = nutriInfo[294].percentage;
+        changeText(info1, info2);
+        ind = 294;
+        break;
+
+        case 'st33-25':
+        ind = 0;
+        info1 = nutriInfo[295].name;
+        info2 = nutriInfo[295].percentage;
+        changeText(info1, info2);
+        ind = 295;
+        break;
+
+        case 'st33-29':
+        ind = 0;
+        info1 = nutriInfo[296].name;
+        info2 = nutriInfo[296].percentage;
+        changeText(info1, info2);
+        ind = 296;
+        break;
+
+        case 'st33-36':
+        ind = 0;
+        info1 = nutriInfo[297].name;
+        info2 = nutriInfo[297].percentage;
+        changeText(info1, info2);
+        ind = 297;
+        break;
+
+        case 'st33-30':
+        ind = 0;
+        info1 = nutriInfo[298].name;
+        info2 = nutriInfo[298].percentage;
+        changeText(info1, info2);
+        ind = 298;
+        break;
+
+        case 'st33-360':
+        ind = 0;
+        info1 = nutriInfo[299].name;
+        info2 = nutriInfo[299].percentage;
+        changeText(info1, info2);
+        ind = 299;
+        break;
+
+        case 'st33-26':
+        ind = 0;
+        info1 = nutriInfo[300].name;
+        info2 = nutriInfo[300].percentage;
+        changeText(info1, info2);
+        ind = 300;
+        break;
+
+        case 'st33-39':
+        ind = 0;
+        info1 = nutriInfo[301].name;
+        info2 = nutriInfo[301].percentage;
+        changeText(info1, info2);
+        ind = 301;
+        break;
+
+        case 'st33-34':
+        ind = 0;
+        info1 = nutriInfo[302].name;
+        info2 = nutriInfo[302].percentage;
+        changeText(info1, info2);
+        ind = 302;
+        break;
+
+        case 'st33-23':
+        ind = 0;
+        info1 = nutriInfo[303].name;
+        info2 = nutriInfo[303].percentage;
+        changeText(info1, info2);
+        ind = 303;
+        break;
+
+        case 'st33-24':
+        ind = 0;
+        info1 = nutriInfo[304].name;
+        info2 = nutriInfo[304].percentage;
+        changeText(info1, info2);
+        ind = 304;
+        break;
+
+        case 'st33-230':
+        ind = 0;
+        info1 = nutriInfo[305].name;
+        info2 = nutriInfo[305].percentage;
+        changeText(info1, info2);
+        ind = 305;
+        break;
+
+        case 'st33-22':
+        ind = 0;
+        info1 = nutriInfo[306].name;
+        info2 = nutriInfo[306].percentage;
+        changeText(info1, info2);
+        ind = 306;
+        break;
+
+        case 'st33-42':
+        ind = 0;
+        info1 = nutriInfo[307].name;
+        info2 = nutriInfo[307].percentage;
+        changeText(info1, info2);
+        ind = 307;
+        break;
+
+        case 'st34-31':
+        ind = 0;
+        info1 = nutriInfo[308].name;
+        info2 = nutriInfo[308].percentage;
+        changeText(info1, info2);
+        ind = 308;
+        break;
+
+        case 'st34-24':
+        ind = 0;
+        info1 = nutriInfo[309].name;
+        info2 = nutriInfo[309].percentage;
+        changeText(info1, info2);
+        ind = 309;
+        break;
+
+        case 'st34-21':
+        ind = 0;
+        info1 = nutriInfo[310].name;
+        info2 = nutriInfo[310].percentage;
+        changeText(info1, info2);
+        ind = 310;
+        break;
+
+        case 'st34-22':
+        ind = 0;
+        info1 = nutriInfo[311].name;
+        info2 = nutriInfo[311].percentage;
+        changeText(info1, info2);
+        ind = 311;
+        break;
+
+        case 'st35-16':
+        ind = 0;
+        info1 = nutriInfo[312].name;
+        info2 = nutriInfo[312].percentage;
+        changeText(info1, info2);
+        ind = 312;
+        break;
+
+        case 'st35-29':
+        ind = 0;
+        info1 = nutriInfo[313].name;
+        info2 = nutriInfo[313].percentage;
+        changeText(info1, info2);
+        ind = 313;
+        break;
+
+        case 'st35-19':
+        ind = 0;
+        info1 = nutriInfo[314].name;
+        info2 = nutriInfo[314].percentage;
+        changeText(info1, info2);
+        ind = 314;
+        break;
+
+        case 'st35-24':
+        ind = 0;
+        info1 = nutriInfo[315].name;
+        info2 = nutriInfo[315].percentage;
+        changeText(info1, info2);
+        ind = 315;
+        break;
+
+        case 'st35-22':
+        ind = 0;
+        info1 = nutriInfo[316].name;
+        info2 = nutriInfo[316].percentage;
+        changeText(info1, info2);
+        ind = 316;
+        break;
+
+        case 'st36-16':
+        ind = 0;
+        info1 = nutriInfo[317].name;
+        info2 = nutriInfo[317].percentage;
+        changeText(info1, info2);
+        ind = 317;
+        break;
+
+        case 'st36-32':
+        ind = 0;
+        info1 = nutriInfo[318].name;
+        info2 = nutriInfo[318].percentage;
+        changeText(info1, info2);
+        ind = 318;
+        break;
+
+        case 'st36-29':
+        ind = 0;
+        info1 = nutriInfo[319].name;
+        info2 = nutriInfo[319].percentage;
+        changeText(info1, info2);
+        ind = 319;
+        break;
+
+        case 'st36-31':
+        ind = 0;
+        info1 = nutriInfo[320].name;
+        info2 = nutriInfo[320].percentage;
+        changeText(info1, info2);
+        ind = 320;
+        break;
+
+        case 'st36-36':
+        ind = 0;
+        info1 = nutriInfo[321].name;
+        info2 = nutriInfo[321].percentage;
+        changeText(info1, info2);
+        ind = 321;
+        break;
+
+        case 'st36-30':
+        ind = 0;
+        info1 = nutriInfo[322].name;
+        info2 = nutriInfo[322].percentage;
+        changeText(info1, info2);
+        ind = 322;
+        break;
+
+        case 'st36-18':
+        ind = 0;
+        info1 = nutriInfo[323].name;
+        info2 = nutriInfo[323].percentage;
+        changeText(info1, info2);
+        ind = 323;
+        break;
+
+        case 'st36-19':
+        ind = 0;
+        info1 = nutriInfo[324].name;
+        info2 = nutriInfo[324].percentage;
+        changeText(info1, info2);
+        ind = 324;
+        break;
+
+        case 'st36-24':
+        ind = 0;
+        info1 = nutriInfo[325].name;
+        info2 = nutriInfo[325].percentage;
+        changeText(info1, info2);
+        ind = 325;
+        break;
+
+        case 'st36-22':
+        ind = 0;
+        info1 = nutriInfo[326].name;
+        info2 = nutriInfo[326].percentage;
+        changeText(info1, info2);
+        ind = 326;
+        break;
+
+        case 'st37-14':
+        ind = 0;
+        info1 = nutriInfo[327].name;
+        info2 = nutriInfo[327].percentage;
+        changeText(info1, info2);
+        ind = 327;
+        break;
+
+        case 'st37-28':
+        ind = 0;
+        info1 = nutriInfo[328].name;
+        info2 = nutriInfo[328].percentage;
+        changeText(info1, info2);
+        ind = 328;
+        break;
+
+        case 'st37-16':
+        ind = 0;
+        info1 = nutriInfo[329].name;
+        info2 = nutriInfo[329].percentage;
+        changeText(info1, info2);
+        ind = 329;
+        break;
+
+        case 'st37-25':
+        ind = 0;
+        info1 = nutriInfo[330].name;
+        info2 = nutriInfo[330].percentage;
+        changeText(info1, info2);
+        ind = 330;
+        break;
+
+        case 'st37-36':
+        ind = 0;
+        info1 = nutriInfo[331].name;
+        info2 = nutriInfo[331].percentage;
+        changeText(info1, info2);
+        ind = 331;
+        break;
+
+        case 'st37-18':
+        ind = 0;
+        info1 = nutriInfo[332].name;
+        info2 = nutriInfo[332].percentage;
+        changeText(info1, info2);
+        ind = 332;
+        break;
+
+        case 'st37-19':
+        ind = 0;
+        info1 = nutriInfo[333].name;
+        info2 = nutriInfo[333].percentage;
+        changeText(info1, info2);
+        ind = 333;
+        break;
+
+        case 'st37-23':
+        ind = 0;
+        info1 = nutriInfo[334].name;
+        info2 = nutriInfo[334].percentage;
+        changeText(info1, info2);
+        ind = 334;
+        break;
+
+        case 'st37-24':
+        ind = 0;
+        info1 = nutriInfo[335].name;
+        info2 = nutriInfo[335].percentage;
+        changeText(info1, info2);
+        ind = 335;
+        break;
+
+        case 'st37-18':
+        ind = 0;
+        info1 = nutriInfo[336].name;
+        info2 = nutriInfo[336].percentage;
+        changeText(info1, info2);
+        ind = 336;
+        break;
+
+        case 'st37-21':
+        ind = 0;
+        info1 = nutriInfo[337].name;
+        info2 = nutriInfo[337].percentage;
+        changeText(info1, info2);
+        ind = 337;
+        break;
+
+        case 'st37-22':
+        ind = 0;
+        info1 = nutriInfo[338].name;
+        info2 = nutriInfo[338].percentage;
+        changeText(info1, info2);
+        ind = 338;
+        break;
+
+        case 'st38-16':
+        ind = 0;
+        info1 = nutriInfo[339].name;
+        info2 = nutriInfo[339].percentage;
+        changeText(info1, info2);
+        ind = 339;
+        break;
+
+        case 'st38-25':
+        ind = 0;
+        info1 = nutriInfo[340].name;
+        info2 = nutriInfo[340].percentage;
+        changeText(info1, info2);
+        ind = 340;
+        break;
+
+        case 'st38-31':
+        ind = 0;
+        info1 = nutriInfo[341].name;
+        info2 = nutriInfo[341].percentage;
+        changeText(info1, info2);
+        ind = 341;
+        break;
+
+        case 'st38-36':
+        ind = 0;
+        info1 = nutriInfo[342].name;
+        info2 = nutriInfo[342].percentage;
+        changeText(info1, info2);
+        ind = 342;
+        break;
+
+        case 'st38-30':
+        ind = 0;
+        info1 = nutriInfo[343].name;
+        info2 = nutriInfo[343].percentage;
+        changeText(info1, info2);
+        ind = 343;
+        break;
+
+        case 'st38-360':
+        ind = 0;
+        info1 = nutriInfo[344].name;
+        info2 = nutriInfo[344].percentage;
+        changeText(info1, info2);
+        ind = 344;
+        break;
+
+        case 'st38-26':
+        ind = 0;
+        info1 = nutriInfo[345].name;
+        info2 = nutriInfo[345].percentage;
+        changeText(info1, info2);
+        ind = 345;
+        break;
+
+        case 'st38-34':
+        ind = 0;
+        info1 = nutriInfo[346].name;
+        info2 = nutriInfo[346].percentage;
+        changeText(info1, info2);
+        ind = 346;
+        break;
+
+        case 'st38-18':
+        ind = 0;
+        info1 = nutriInfo[347].name;
+        info2 = nutriInfo[347].percentage;
+        changeText(info1, info2);
+        ind = 347;
+        break;
+
+        case 'st38-19':
+        ind = 0;
+        info1 = nutriInfo[348].name;
+        info2 = nutriInfo[348].percentage;
+        changeText(info1, info2);
+        ind = 348;
+        break;
+
+        case 'st38-23':
+        ind = 0;
+        info1 = nutriInfo[349].name;
+        info2 = nutriInfo[349].percentage;
+        changeText(info1, info2);
+        ind = 349;
+        break;
+
+        case 'st38-24':
+        ind = 0;
+        info1 = nutriInfo[350].name;
+        info2 = nutriInfo[350].percentage;
+        changeText(info1, info2);
+        ind = 350;
+        break;
+
+        case 'st38-240':
+        ind = 0;
+        info1 = nutriInfo[351].name;
+        info2 = nutriInfo[351].percentage;
+        changeText(info1, info2);
+        ind = 351;
+        break;
+
+        case 'st38-21':
+        ind = 0;
+        info1 = nutriInfo[352].name;
+        info2 = nutriInfo[352].percentage;
+        changeText(info1, info2);
+        ind = 352;
+        break;
+
+        case 'st38-22':
+        ind = 0;
+        info1 = nutriInfo[353].name;
+        info2 = nutriInfo[353].percentage;
+        changeText(info1, info2);
+        ind = 353;
+        break;
+
+        case 'st39-31':
+        ind = 0;
+        info1 = nutriInfo[354].name;
+        info2 = nutriInfo[354].percentage;
+        changeText(info1, info2);
+        ind = 354;
+        break;
+        
+        case 'st40-31':
+        ind = 0;
+        info1 = nutriInfo[355].name;
+        info2 = nutriInfo[355].percentage;
+        changeText(info1, info2);
+        ind = 355;
+        break;
+
+        case 'st40-24':
+        ind = 0;
+        info1 = nutriInfo[356].name;
+        info2 = nutriInfo[356].percentage;
+        changeText(info1, info2);
+        ind = 356;
+        break;
+
+        case 'st40-17':
+        ind = 0;
+        info1 = nutriInfo[357].name;
+        info2 = nutriInfo[357].percentage;
+        changeText(info1, info2);
+        ind = 357;
+        break;
+
+        case 'st40-32':
+        ind = 0;
+        info1 = nutriInfo[358].name;
+        info2 = nutriInfo[358].percentage;
+        changeText(info1, info2);
+        ind = 358;
+        break;
+
+        case 'st40-29':
+        ind = 0;
+        info1 = nutriInfo[359].name;
+        info2 = nutriInfo[359].percentage;
+        changeText(info1, info2);
+        ind = 359;
+        break;
+
+        case 'st40-31':
+        ind = 0;
+        info1 = nutriInfo[360].name;
+        info2 = nutriInfo[360].percentage;
+        changeText(info1, info2);
+        ind = 360;
+        break;
+
+        case 'st40-26':
+        ind = 0;
+        info1 = nutriInfo[361].name;
+        info2 = nutriInfo[361].percentage;
+        changeText(info1, info2);
+        ind = 361;
+        break;
+
+        case 'st40-24':
+        ind = 0;
+        info1 = nutriInfo[362].name;
+        info2 = nutriInfo[362].percentage;
+        changeText(info1, info2);
+        ind = 362;
+        break;
+
+        case 'st41-17':
+        ind = 0;
+        info1 = nutriInfo2[0].name;
+        info2 = nutriInfo2[0].percentage;
+        changeText(info1, info2);
+        ind = 363;
+        break;
+
+        case 'st41-32':
+        ind = 0;
+        info1 = nutriInfo2[1].name;
+        info2 = nutriInfo2[1].percentage;
+        changeText(info1, info2);
+        ind = 364;
+        break;
+
+        case 'st41-29':
+        ind = 0;
+        info1 = nutriInfo2[2].name;
+        info2 = nutriInfo2[2].percentage;
+        changeText(info1, info2);
+        ind = 365;
+        break;
+
+        case 'st41-31':
+        ind = 0;
+        info1 = nutriInfo2[3].name;
+        info2 = nutriInfo2[3].percentage;
+        changeText(info1, info2);
+        ind = 366;
+        break;
+
+        case 'st41-26':
+        ind = 0;
+        info1 = nutriInfo2[4].name;
+        info2 = nutriInfo2[4].percentage;
+        changeText(info1, info2);
+        ind = 367;
+        break;
+
+        case 'st41-24':
+        ind = 0;
+        info1 = nutriInfo2[5].name;
+        info2 = nutriInfo2[5].percentage;
+        changeText(info1, info2);
+        ind = 368;
+        break;
+
+        
 
         case 'st10 st70 st71':
         info1 = foodInfo[0]["gi-level"]
@@ -1773,9 +3430,265 @@ document.onmouseover = function(eee){
     positionPopUp('myicon16-17','popup_left')
     positionPopUp('myicon16-18','popup_left')
 
+    //row16
+    positionPopUp('myicon17-0','popup_left')
+    positionPopUp('myicon17-1','popup_left')
+    positionPopUp('myicon17-2','popup_left')
+    positionPopUp('myicon17-3','popup_left')
+    positionPopUp('myicon17-4','popup_left')
+    positionPopUp('myicon17-5','popup_left')
+    positionPopUp('myicon17-6','popup_left')
+    positionPopUp('myicon17-7','popup_left')
+    positionPopUp('myicon17-8','popup_left')
+    positionPopUp('myicon17-9','popup_left')
+    positionPopUp('myicon17-10','popup_left')
+    positionPopUp('myicon17-11','popup_left')
+    positionPopUp('myicon17-12','popup_left')
+    positionPopUp('myicon17-13','popup_left')
+    positionPopUp('myicon17-14','popup_left')
+    positionPopUp('myicon17-15','popup_left')
 
+    //row17
+    positionPopUp('myicon18-0','popup_left')
+    positionPopUp('myicon18-1','popup_left')
+    positionPopUp('myicon18-2','popup_left')
+    positionPopUp('myicon18-3','popup_left')
+    positionPopUp('myicon18-4','popup_left')
+    positionPopUp('myicon18-5','popup_left')
+    positionPopUp('myicon18-6','popup_left')
+    positionPopUp('myicon18-7','popup_left')
+    positionPopUp('myicon18-8','popup_left')
+    positionPopUp('myicon18-9','popup_left')
+    positionPopUp('myicon18-10','popup_left')
+    positionPopUp('myicon18-11','popup_left')
+    positionPopUp('myicon18-12','popup_left')
+    positionPopUp('myicon18-13','popup_left')
 
+    //row18
+    positionPopUp('myicon19-0','popup_left')
+    positionPopUp('myicon19-1','popup_left')
+    positionPopUp('myicon19-2','popup_left')
+    positionPopUp('myicon19-3','popup_left')
+    positionPopUp('myicon19-4','popup_left')
+    positionPopUp('myicon19-5','popup_left')
+    positionPopUp('myicon19-6','popup_left')
+    positionPopUp('myicon19-7','popup_left')
+    positionPopUp('myicon19-8','popup_left')
+    positionPopUp('myicon19-9','popup_left')
+    positionPopUp('myicon19-10','popup_left')
+    positionPopUp('myicon19-11','popup_left')
+    positionPopUp('myicon19-12','popup_left')
+    positionPopUp('myicon19-13','popup_left')
 
+    //row19
+    positionPopUp('myicon20-0','popup_left')
+    positionPopUp('myicon20-1','popup_left')
+    positionPopUp('myicon20-2','popup_left')
+    positionPopUp('myicon20-3','popup_left')
+    positionPopUp('myicon20-4','popup_left')
+    positionPopUp('myicon20-5','popup_left')
+    positionPopUp('myicon20-6','popup_left')
+    positionPopUp('myicon20-7','popup_left')
+    positionPopUp('myicon20-8','popup_left')
+    positionPopUp('myicon20-9','popup_left')
+    positionPopUp('myicon20-10','popup_left')
+    positionPopUp('myicon20-11','popup_left')
+    positionPopUp('myicon20-12','popup_left')
+
+    //row20
+    positionPopUp('myicon21-0','popup_left')
+    positionPopUp('myicon21-1','popup_left')
+    positionPopUp('myicon21-2','popup_left')
+    positionPopUp('myicon21-3','popup_left')
+    positionPopUp('myicon21-4','popup_left')
+    positionPopUp('myicon21-5','popup_left')
+    positionPopUp('myicon21-6','popup_left')
+
+    //row21
+    positionPopUp('myicon22-0','popup_left')
+    positionPopUp('myicon22-1','popup_left')
+    positionPopUp('myicon22-2','popup_left')
+    positionPopUp('myicon22-3','popup_left')
+    positionPopUp('myicon22-4','popup_left')
+    positionPopUp('myicon22-5','popup_left')
+    positionPopUp('myicon22-6','popup_left')
+    positionPopUp('myicon22-7','popup_left')
+    positionPopUp('myicon22-8','popup_left')
+    positionPopUp('myicon22-9','popup_left')
+
+    //row22
+    positionPopUp('myicon22-0','popup_left')
+    positionPopUp('myicon22-1','popup_left')
+    positionPopUp('myicon22-2','popup_left')
+    positionPopUp('myicon22-3','popup_left')
+    positionPopUp('myicon22-4','popup_left')
+    positionPopUp('myicon22-5','popup_left')
+    positionPopUp('myicon22-6','popup_left')
+    positionPopUp('myicon22-7','popup_left')
+    positionPopUp('myicon22-8','popup_left')
+
+    //row22
+    positionPopUp('myicon23-0','popup_left')
+    positionPopUp('myicon23-1','popup_left')
+    positionPopUp('myicon23-2','popup_left')
+    positionPopUp('myicon23-3','popup_left')
+    positionPopUp('myicon23-4','popup_left')
+    positionPopUp('myicon23-5','popup_left')
+    positionPopUp('myicon23-6','popup_left')
+    positionPopUp('myicon23-7','popup_left')
+    positionPopUp('myicon23-8','popup_left')
+
+    //row23
+    positionPopUp('myicon24-0','popup_left')
+    positionPopUp('myicon24-1','popup_left')
+    positionPopUp('myicon24-2','popup_left')
+    positionPopUp('myicon24-3','popup_left')
+    positionPopUp('myicon24-4','popup_left')
+    positionPopUp('myicon24-5','popup_left')
+    positionPopUp('myicon24-6','popup_left')
+    positionPopUp('myicon24-7','popup_left')
+    positionPopUp('myicon24-8','popup_left')
+
+    //row24
+    positionPopUp('myicon25-0','popup_left')
+    positionPopUp('myicon25-1','popup_left')
+
+    //row25
+    positionPopUp('myicon26-0','popup_left')
+    positionPopUp('myicon26-1','popup_left')
+
+    //row26
+    positionPopUp('myicon27-0','popup_left')
+
+    //row27
+    positionPopUp('myicon28-0','popup_left')
+    positionPopUp('myicon28-1','popup_left')
+    positionPopUp('myicon28-2','popup_left')
+    positionPopUp('myicon28-3','popup_left')
+
+    //row28
+    positionPopUp('myicon29-0','popup_left')
+    positionPopUp('myicon29-1','popup_left')
+    positionPopUp('myicon29-2','popup_left')
+
+     //row31
+     positionPopUp('myicon31-0','popup_left')
+     positionPopUp('myicon31-1','popup_left')
+     positionPopUp('myicon31-2','popup_left')
+     positionPopUp('myicon31-3','popup_left')
+     positionPopUp('myicon31-4','popup_left')
+     positionPopUp('myicon31-5','popup_left')
+     positionPopUp('myicon31-6','popup_left')
+     positionPopUp('myicon31-7','popup_left')
+     positionPopUp('myicon31-8','popup_left')
+    
+     //row32
+     positionPopUp('myicon32-0','popup_left')
+     positionPopUp('myicon32-1','popup_left')
+     positionPopUp('myicon32-2','popup_left')
+     positionPopUp('myicon32-3','popup_left')
+     positionPopUp('myicon32-4','popup_left')
+     positionPopUp('myicon32-5','popup_left')
+     positionPopUp('myicon32-6','popup_left')
+     positionPopUp('myicon32-7','popup_left')
+     positionPopUp('myicon32-8','popup_left')
+     positionPopUp('myicon32-9','popup_left')
+     positionPopUp('myicon32-10','popup_left')
+     positionPopUp('myicon32-11','popup_left')
+     positionPopUp('myicon32-12','popup_left')
+     positionPopUp('myicon32-13','popup_left')
+     positionPopUp('myicon32-14','popup_left')
+     positionPopUp('myicon32-15','popup_left')
+
+     //row33
+     positionPopUp('myicon33-0','popup_left')
+     positionPopUp('myicon33-1','popup_left')
+     positionPopUp('myicon33-2','popup_left')
+     positionPopUp('myicon33-3','popup_left')
+     positionPopUp('myicon33-4','popup_left')
+     positionPopUp('myicon33-5','popup_left')
+     positionPopUp('myicon33-6','popup_left')
+     positionPopUp('myicon33-7','popup_left')
+     positionPopUp('myicon33-8','popup_left')
+     positionPopUp('myicon33-9','popup_left')
+     positionPopUp('myicon33-10','popup_left')
+     positionPopUp('myicon33-11','popup_left')
+     positionPopUp('myicon33-12','popup_left')
+     positionPopUp('myicon33-13','popup_left')
+     positionPopUp('myicon33-14','popup_left')
+     positionPopUp('myicon33-15','popup_left')
+     positionPopUp('myicon33-16','popup_left')
+
+     //row34
+     positionPopUp('myicon34-0','popup_left')
+     positionPopUp('myicon34-1','popup_left')
+     positionPopUp('myicon34-2','popup_left')
+     positionPopUp('myicon34-3','popup_left')
+ 
+     //row35
+     positionPopUp('myicon35-0','popup_left')
+     positionPopUp('myicon35-1','popup_left')
+     positionPopUp('myicon35-2','popup_left')
+     positionPopUp('myicon35-3','popup_left')
+     positionPopUp('myicon35-4','popup_left')
+
+    //row36
+    positionPopUp('myicon36-0','popup_left')
+    positionPopUp('myicon36-1','popup_left')
+    positionPopUp('myicon36-2','popup_left')
+    positionPopUp('myicon36-3','popup_left')
+    positionPopUp('myicon36-4','popup_left')
+    positionPopUp('myicon36-5','popup_left')
+    positionPopUp('myicon36-6','popup_left')
+    positionPopUp('myicon36-7','popup_left')
+    positionPopUp('myicon36-8','popup_left')
+    positionPopUp('myicon36-9','popup_left')
+
+    //row37
+    positionPopUp('myicon37-0','popup_left')
+    positionPopUp('myicon37-1','popup_left')
+    positionPopUp('myicon37-2','popup_left')
+    positionPopUp('myicon37-3','popup_left')
+    positionPopUp('myicon37-4','popup_left')
+    positionPopUp('myicon37-5','popup_left')
+    positionPopUp('myicon37-6','popup_left')
+    positionPopUp('myicon37-7','popup_left')
+    positionPopUp('myicon37-8','popup_left')
+    positionPopUp('myicon37-9','popup_left')
+    positionPopUp('myicon37-10','popup_left')
+    positionPopUp('myicon37-11','popup_left')
+
+    //row38
+    positionPopUp('myicon38-0','popup_left')
+    positionPopUp('myicon38-1','popup_left')
+    positionPopUp('myicon38-2','popup_left')
+    positionPopUp('myicon38-3','popup_left')
+    positionPopUp('myicon38-4','popup_left')
+    positionPopUp('myicon38-5','popup_left')
+    positionPopUp('myicon38-6','popup_left')
+    positionPopUp('myicon38-7','popup_left')
+    positionPopUp('myicon38-8','popup_left')
+    positionPopUp('myicon38-9','popup_left')
+    positionPopUp('myicon38-10','popup_left')
+    positionPopUp('myicon38-11','popup_left')
+    positionPopUp('myicon38-12','popup_left')
+    positionPopUp('myicon38-13','popup_left')
+    positionPopUp('myicon38-14','popup_left')
+
+    //row39
+    positionPopUp('myicon39-0','popup_left')
+
+    //row40
+    positionPopUp('myicon40-0','popup_left')
+    positionPopUp('myicon40-1','popup_left')
+
+    //row41
+    positionPopUp('myicon41-0','popup_left')
+    positionPopUp('myicon41-1','popup_left')
+    positionPopUp('myicon41-2','popup_left')
+    positionPopUp('myicon41-3','popup_left')
+    positionPopUp('myicon41-4','popup_left')
+    positionPopUp('myicon41-5','popup_left')
 
 
 
