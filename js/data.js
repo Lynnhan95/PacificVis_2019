@@ -405,8 +405,3 @@ var nutriInfo = [
 
 
 
-var foodInfo = [
-    {'gi-level':'Low','color':'Brown','category':'Legumes','amount':'1oz','url':"background: #000 url('images/walnut2.jpg') no-repeat"},
-    {'gi-level':'High','color':'white','category':'Legumes','amount':'1oz','url':"background: #000 url('images/walnut2.jpg') no-repeat"},
-
-]

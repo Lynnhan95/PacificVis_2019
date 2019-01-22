@@ -201,7 +201,13 @@ function positionPopUp(entID,whichpop){
             currentPop.style.top = (window.scrollY + iconPos.top - 70) + "px";
         }else if(whichpop == 'popup_down'){
             currentPop.style.left = (iconPos.right -144) + "px";
-            currentPop.style.top = (window.scrollY + iconPos.top + 24) + "px";
+            // console.log(iconPos.top);
+            if(iconPos.top<400){
+                currentPop.style.top = (window.scrollY + iconPos.top + 24) + "px";
+            }else{
+                currentPop.style.top = (window.scrollY + iconPos.top - 350) + "px";
+            }
+            
         }else{
             return;
         }
@@ -7066,11 +7072,874 @@ document.onmouseover = function(eee){
      positionPopUp('myicon81-6','popup_left')
      positionPopUp('myicon81-7','popup_left')
 
+/////popup_down
+switch(num){
+    case 'st51 st52 st53 text1':
+    info1 = foodInfo[0].giLevel
+    info2 = foodInfo[0].color
+    info3 = foodInfo[0].category
+    info4 = foodInfo[0].amount
+    info5 = foodInfo[0].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text2':
+    info1 = foodInfo[1].giLevel
+    info2 = foodInfo[1].color
+    info3 = foodInfo[1].category
+    info4 = foodInfo[1].amount
+    info5 = foodInfo[1].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text3':
+    info1 = foodInfo[2].giLevel
+    info2 = foodInfo[2].color
+    info3 = foodInfo[2].category
+    info4 = foodInfo[2].amount
+    info5 = foodInfo[2].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text4':
+    info1 = foodInfo[3].giLevel
+    info2 = foodInfo[3].color
+    info3 = foodInfo[3].category
+    info4 = foodInfo[3].amount
+    info5 = foodInfo[3].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text5':
+    info1 = foodInfo[4].giLevel
+    info2 = foodInfo[4].color
+    info3 = foodInfo[4].category
+    info4 = foodInfo[4].amount
+    info5 = foodInfo[4].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text6':
+    info1 = foodInfo[5].giLevel
+    info2 = foodInfo[5].color
+    info3 = foodInfo[5].category
+    info4 = foodInfo[5].amount
+    info5 = foodInfo[5].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text7':
+    info1 = foodInfo[6].giLevel
+    info2 = foodInfo[6].color
+    info3 = foodInfo[6].category
+    info4 = foodInfo[6].amount
+    info5 = foodInfo[6].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text8':
+    info1 = foodInfo[7].giLevel
+    info2 = foodInfo[7].color
+    info3 = foodInfo[7].category
+    info4 = foodInfo[7].amount
+    info5 = foodInfo[7].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text9':
+    info1 = foodInfo[8].giLevel
+    info2 = foodInfo[8].color
+    info3 = foodInfo[8].category
+    info4 = foodInfo[8].amount
+    info5 = foodInfo[8].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text10':
+    info1 = foodInfo[9].giLevel
+    info2 = foodInfo[9].color
+    info3 = foodInfo[9].category
+    info4 = foodInfo[9].amount
+    info5 = foodInfo[9].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text11':
+    info1 = foodInfo[10].giLevel
+    info2 = foodInfo[10].color
+    info3 = foodInfo[10].category
+    info4 = foodInfo[10].amount
+    info5 = foodInfo[10].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text12':
+    info1 = foodInfo[11].giLevel
+    info2 = foodInfo[11].color
+    info3 = foodInfo[11].category
+    info4 = foodInfo[11].amount
+    info5 = foodInfo[11].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text13':
+    info1 = foodInfo[12].giLevel
+    info2 = foodInfo[12].color
+    info3 = foodInfo[12].category
+    info4 = foodInfo[12].amount
+    info5 = foodInfo[12].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text14':
+    info1 = foodInfo[13].giLevel
+    info2 = foodInfo[13].color
+    info3 = foodInfo[13].category
+    info4 = foodInfo[13].amount
+    info5 = foodInfo[13].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text15':
+    info1 = foodInfo[14].giLevel
+    info2 = foodInfo[14].color
+    info3 = foodInfo[14].category
+    info4 = foodInfo[14].amount
+    info5 = foodInfo[14].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text16':
+    info1 = foodInfo[15].giLevel
+    info2 = foodInfo[15].color
+    info3 = foodInfo[15].category
+    info4 = foodInfo[15].amount
+    info5 = foodInfo[15].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text17':
+    info1 = foodInfo[16].giLevel
+    info2 = foodInfo[16].color
+    info3 = foodInfo[16].category
+    info4 = foodInfo[16].amount
+    info5 = foodInfo[16].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text18':
+    info1 = foodInfo[17].giLevel
+    info2 = foodInfo[17].color
+    info3 = foodInfo[17].category
+    info4 = foodInfo[17].amount
+    info5 = foodInfo[17].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text19':
+    info1 = foodInfo[18].giLevel
+    info2 = foodInfo[18].color
+    info3 = foodInfo[18].category
+    info4 = foodInfo[18].amount
+    info5 = foodInfo[18].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text20':
+    info1 = foodInfo[19].giLevel
+    info2 = foodInfo[19].color
+    info3 = foodInfo[19].category
+    info4 = foodInfo[19].amount
+    info5 = foodInfo[19].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text21':
+    info1 = foodInfo[20].giLevel
+    info2 = foodInfo[20].color
+    info3 = foodInfo[20].category
+    info4 = foodInfo[20].amount
+    info5 = foodInfo[20].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text22':
+    info1 = foodInfo[21].giLevel
+    info2 = foodInfo[21].color
+    info3 = foodInfo[21].category
+    info4 = foodInfo[21].amount
+    info5 = foodInfo[21].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text23':
+    info1 = foodInfo[22].giLevel
+    info2 = foodInfo[22].color
+    info3 = foodInfo[22].category
+    info4 = foodInfo[22].amount
+    info5 = foodInfo[22].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text24':
+    info1 = foodInfo[23].giLevel
+    info2 = foodInfo[23].color
+    info3 = foodInfo[23].category
+    info4 = foodInfo[23].amount
+    info5 = foodInfo[23].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text25':
+    info1 = foodInfo[24].giLevel
+    info2 = foodInfo[24].color
+    info3 = foodInfo[24].category
+    info4 = foodInfo[24].amount
+    info5 = foodInfo[24].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text26':
+    info1 = foodInfo[25].giLevel
+    info2 = foodInfo[25].color
+    info3 = foodInfo[25].category
+    info4 = foodInfo[25].amount
+    info5 = foodInfo[25].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text27':
+    info1 = foodInfo[26].giLevel
+    info2 = foodInfo[26].color
+    info3 = foodInfo[26].category
+    info4 = foodInfo[26].amount
+    info5 = foodInfo[26].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text28':
+    info1 = foodInfo[27].giLevel
+    info2 = foodInfo[27].color
+    info3 = foodInfo[27].category
+    info4 = foodInfo[27].amount
+    info5 = foodInfo[27].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text29':
+    info1 = foodInfo[28].giLevel
+    info2 = foodInfo[28].color
+    info3 = foodInfo[28].category
+    info4 = foodInfo[28].amount
+    info5 = foodInfo[28].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text30':
+    info1 = foodInfo[29].giLevel
+    info2 = foodInfo[29].color
+    info3 = foodInfo[29].category
+    info4 = foodInfo[29].amount
+    info5 = foodInfo[29].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text31':
+    info1 = foodInfo[30].giLevel
+    info2 = foodInfo[30].color
+    info3 = foodInfo[30].category
+    info4 = foodInfo[30].amount
+    info5 = foodInfo[30].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text32':
+    info1 = foodInfo[31].giLevel
+    info2 = foodInfo[31].color
+    info3 = foodInfo[31].category
+    info4 = foodInfo[31].amount
+    info5 = foodInfo[31].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text33':
+    info1 = foodInfo[32].giLevel
+    info2 = foodInfo[32].color
+    info3 = foodInfo[32].category
+    info4 = foodInfo[32].amount
+    info5 = foodInfo[32].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text34':
+    info1 = foodInfo[33].giLevel
+    info2 = foodInfo[33].color
+    info3 = foodInfo[33].category
+    info4 = foodInfo[33].amount
+    info5 = foodInfo[33].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text35':
+    info1 = foodInfo[34].giLevel
+    info2 = foodInfo[34].color
+    info3 = foodInfo[34].category
+    info4 = foodInfo[34].amount
+    info5 = foodInfo[34].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text36':
+    info1 = foodInfo[35].giLevel
+    info2 = foodInfo[35].color
+    info3 = foodInfo[35].category
+    info4 = foodInfo[35].amount
+    info5 = foodInfo[35].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text37':
+    info1 = foodInfo[36].giLevel
+    info2 = foodInfo[36].color
+    info3 = foodInfo[36].category
+    info4 = foodInfo[36].amount
+    info5 = foodInfo[36].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text38':
+    info1 = foodInfo[37].giLevel
+    info2 = foodInfo[37].color
+    info3 = foodInfo[37].category
+    info4 = foodInfo[37].amount
+    info5 = foodInfo[37].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text39':
+    info1 = foodInfo[38].giLevel
+    info2 = foodInfo[38].color
+    info3 = foodInfo[38].category
+    info4 = foodInfo[38].amount
+    info5 = foodInfo[38].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text40':
+    info1 = foodInfo[39].giLevel
+    info2 = foodInfo[39].color
+    info3 = foodInfo[39].category
+    info4 = foodInfo[39].amount
+    info5 = foodInfo[39].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text41':
+    info1 = foodInfo[40].giLevel
+    info2 = foodInfo[40].color
+    info3 = foodInfo[40].category
+    info4 = foodInfo[40].amount
+    info5 = foodInfo[40].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text42':
+    info1 = foodInfo[41].giLevel
+    info2 = foodInfo[41].color
+    info3 = foodInfo[41].category
+    info4 = foodInfo[41].amount
+    info5 = foodInfo[41].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text43':
+    info1 = foodInfo[42].giLevel
+    info2 = foodInfo[42].color
+    info3 = foodInfo[42].category
+    info4 = foodInfo[42].amount
+    info5 = foodInfo[42].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text44':
+    info1 = foodInfo[43].giLevel
+    info2 = foodInfo[43].color
+    info3 = foodInfo[43].category
+    info4 = foodInfo[43].amount
+    info5 = foodInfo[43].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text45':
+    info1 = foodInfo[44].giLevel
+    info2 = foodInfo[44].color
+    info3 = foodInfo[44].category
+    info4 = foodInfo[44].amount
+    info5 = foodInfo[44].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text46':
+    info1 = foodInfo[45].giLevel
+    info2 = foodInfo[45].color
+    info3 = foodInfo[45].category
+    info4 = foodInfo[45].amount
+    info5 = foodInfo[45].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text47':
+    info1 = foodInfo[46].giLevel
+    info2 = foodInfo[46].color
+    info3 = foodInfo[46].category
+    info4 = foodInfo[46].amount
+    info5 = foodInfo[46].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text48':
+    info1 = foodInfo[47].giLevel
+    info2 = foodInfo[47].color
+    info3 = foodInfo[47].category
+    info4 = foodInfo[47].amount
+    info5 = foodInfo[47].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text49':
+    info1 = foodInfo[48].giLevel
+    info2 = foodInfo[48].color
+    info3 = foodInfo[48].category
+    info4 = foodInfo[48].amount
+    info5 = foodInfo[48].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text50':
+    info1 = foodInfo[49].giLevel
+    info2 = foodInfo[49].color
+    info3 = foodInfo[49].category
+    info4 = foodInfo[49].amount
+    info5 = foodInfo[49].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text51':
+    info1 = foodInfo[50].giLevel
+    info2 = foodInfo[50].color
+    info3 = foodInfo[50].category
+    info4 = foodInfo[50].amount
+    info5 = foodInfo[50].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text52':
+    info1 = foodInfo[51].giLevel
+    info2 = foodInfo[51].color
+    info3 = foodInfo[51].category
+    info4 = foodInfo[51].amount
+    info5 = foodInfo[51].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text53':
+    info1 = foodInfo[52].giLevel
+    info2 = foodInfo[52].color
+    info3 = foodInfo[52].category
+    info4 = foodInfo[52].amount
+    info5 = foodInfo[52].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text54':
+    info1 = foodInfo[53].giLevel
+    info2 = foodInfo[53].color
+    info3 = foodInfo[53].category
+    info4 = foodInfo[53].amount
+    info5 = foodInfo[53].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text55':
+    info1 = foodInfo[54].giLevel
+    info2 = foodInfo[54].color
+    info3 = foodInfo[54].category
+    info4 = foodInfo[54].amount
+    info5 = foodInfo[54].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text56':
+    info1 = foodInfo[55].giLevel
+    info2 = foodInfo[55].color
+    info3 = foodInfo[55].category
+    info4 = foodInfo[55].amount
+    info5 = foodInfo[55].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text57':
+    info1 = foodInfo[56].giLevel
+    info2 = foodInfo[56].color
+    info3 = foodInfo[56].category
+    info4 = foodInfo[56].amount
+    info5 = foodInfo[56].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text58':
+    info1 = foodInfo[57].giLevel
+    info2 = foodInfo[57].color
+    info3 = foodInfo[57].category
+    info4 = foodInfo[57].amount
+    info5 = foodInfo[57].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text59':
+    info1 = foodInfo[58].giLevel
+    info2 = foodInfo[58].color
+    info3 = foodInfo[58].category
+    info4 = foodInfo[58].amount
+    info5 = foodInfo[58].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text60':
+    info1 = foodInfo[59].giLevel
+    info2 = foodInfo[59].color
+    info3 = foodInfo[59].category
+    info4 = foodInfo[59].amount
+    info5 = foodInfo[59].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text61':
+    info1 = foodInfo[60].giLevel
+    info2 = foodInfo[60].color
+    info3 = foodInfo[60].category
+    info4 = foodInfo[60].amount
+    info5 = foodInfo[60].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text62':
+    info1 = foodInfo[61].giLevel
+    info2 = foodInfo[61].color
+    info3 = foodInfo[61].category
+    info4 = foodInfo[61].amount
+    info5 = foodInfo[61].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text63':
+    info1 = foodInfo[62].giLevel
+    info2 = foodInfo[62].color
+    info3 = foodInfo[62].category
+    info4 = foodInfo[62].amount
+    info5 = foodInfo[62].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text64':
+    info1 = foodInfo[63].giLevel
+    info2 = foodInfo[63].color
+    info3 = foodInfo[63].category
+    info4 = foodInfo[63].amount
+    info5 = foodInfo[63].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text65':
+    info1 = foodInfo[64].giLevel
+    info2 = foodInfo[64].color
+    info3 = foodInfo[64].category
+    info4 = foodInfo[64].amount
+    info5 = foodInfo[64].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text66':
+    info1 = foodInfo[65].giLevel
+    info2 = foodInfo[65].color
+    info3 = foodInfo[65].category
+    info4 = foodInfo[65].amount
+    info5 = foodInfo[65].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text67':
+    info1 = foodInfo[66].giLevel
+    info2 = foodInfo[66].color
+    info3 = foodInfo[66].category
+    info4 = foodInfo[66].amount
+    info5 = foodInfo[66].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text68':
+    info1 = foodInfo[67].giLevel
+    info2 = foodInfo[67].color
+    info3 = foodInfo[67].category
+    info4 = foodInfo[67].amount
+    info5 = foodInfo[67].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text69':
+    info1 = foodInfo[68].giLevel
+    info2 = foodInfo[68].color
+    info3 = foodInfo[68].category
+    info4 = foodInfo[68].amount
+    info5 = foodInfo[68].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text70':
+    info1 = foodInfo[69].giLevel
+    info2 = foodInfo[69].color
+    info3 = foodInfo[69].category
+    info4 = foodInfo[69].amount
+    info5 = foodInfo[69].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text71':
+    info1 = foodInfo[70].giLevel
+    info2 = foodInfo[70].color
+    info3 = foodInfo[70].category
+    info4 = foodInfo[70].amount
+    info5 = foodInfo[70].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text72':
+    info1 = foodInfo[71].giLevel
+    info2 = foodInfo[71].color
+    info3 = foodInfo[71].category
+    info4 = foodInfo[71].amount
+    info5 = foodInfo[71].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+    
+    case 'st51 st52 st53 text73':
+    info1 = foodInfo[72].giLevel
+    info2 = foodInfo[72].color
+    info3 = foodInfo[72].category
+    info4 = foodInfo[72].amount
+    info5 = foodInfo[72].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+     
+    case 'st51 st52 st53 text74':
+    info1 = foodInfo[73].giLevel
+    info2 = foodInfo[73].color
+    info3 = foodInfo[73].category
+    info4 = foodInfo[73].amount
+    info5 = foodInfo[73].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text75':
+    info1 = foodInfo[74].giLevel
+    info2 = foodInfo[74].color
+    info3 = foodInfo[74].category
+    info4 = foodInfo[74].amount
+    info5 = foodInfo[74].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text76':
+    info1 = foodInfo[75].giLevel
+    info2 = foodInfo[75].color
+    info3 = foodInfo[75].category
+    info4 = foodInfo[75].amount
+    info5 = foodInfo[75].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text77':
+    info1 = foodInfo[76].giLevel
+    info2 = foodInfo[76].color
+    info3 = foodInfo[76].category
+    info4 = foodInfo[76].amount
+    info5 = foodInfo[76].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text78':
+    info1 = foodInfo[77].giLevel
+    info2 = foodInfo[77].color
+    info3 = foodInfo[77].category
+    info4 = foodInfo[77].amount
+    info5 = foodInfo[77].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text79':
+    info1 = foodInfo[78].giLevel
+    info2 = foodInfo[78].color
+    info3 = foodInfo[78].category
+    info4 = foodInfo[78].amount
+    info5 = foodInfo[78].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text80':
+    info1 = foodInfo[79].giLevel
+    info2 = foodInfo[79].color
+    info3 = foodInfo[79].category
+    info4 = foodInfo[79].amount
+    info5 = foodInfo[79].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text81':
+    info1 = foodInfo[80].giLevel
+    info2 = foodInfo[80].color
+    info3 = foodInfo[80].category
+    info4 = foodInfo[80].amount
+    info5 = foodInfo[80].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text82':
+    info1 = foodInfo[81].giLevel
+    info2 = foodInfo[81].color
+    info3 = foodInfo[81].category
+    info4 = foodInfo[81].amount
+    info5 = foodInfo[81].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text83':
+    info1 = foodInfo[82].giLevel
+    info2 = foodInfo[82].color
+    info3 = foodInfo[82].category
+    info4 = foodInfo[82].amount
+    info5 = foodInfo[82].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text84':
+    info1 = foodInfo[83].giLevel
+    info2 = foodInfo[83].color
+    info3 = foodInfo[83].category
+    info4 = foodInfo[83].amount
+    info5 = foodInfo[83].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
+
+    case 'st51 st52 st53 text85':
+    info1 = foodInfo[84].giLevel
+    info2 = foodInfo[84].color
+    info3 = foodInfo[84].category
+    info4 = foodInfo[84].amount
+    info5 = foodInfo[84].url
+    changeText2(info1,info2,info3,info4,info5)
+    break;
 
 
 
+}
 
-// positionPopUp('myfood','popup_down');
+
+
+positionPopUp('myfood','popup_down');
+positionPopUp('myfood2','popup_down');
+positionPopUp('myfood3','popup_down');
+positionPopUp('myfood4','popup_down');
+positionPopUp('myfood5','popup_down');
+positionPopUp('myfood6','popup_down');
+positionPopUp('myfood7','popup_down');
+positionPopUp('myfood8','popup_down');
+positionPopUp('myfood9','popup_down');
+positionPopUp('myfood10','popup_down');
+
+positionPopUp('myfood11','popup_down');
+positionPopUp('myfood12','popup_down');
+positionPopUp('myfood13','popup_down');
+positionPopUp('myfood14','popup_down');
+positionPopUp('myfood15','popup_down');
+positionPopUp('myfood16','popup_down');
+positionPopUp('myfood17','popup_down');
+positionPopUp('myfood18','popup_down');
+positionPopUp('myfood19','popup_down');
+positionPopUp('myfood20','popup_down');
+
+positionPopUp('myfood21','popup_down');
+positionPopUp('myfood22','popup_down');
+positionPopUp('myfood23','popup_down');
+positionPopUp('myfood24','popup_down');
+positionPopUp('myfood25','popup_down');
+positionPopUp('myfood26','popup_down');
+positionPopUp('myfood27','popup_down');
+positionPopUp('myfood28','popup_down');
+positionPopUp('myfood29','popup_down');
+positionPopUp('myfood30','popup_down');
+
+positionPopUp('myfood31','popup_down');
+positionPopUp('myfood32','popup_down');
+positionPopUp('myfood33','popup_down');
+positionPopUp('myfood34','popup_down');
+positionPopUp('myfood35','popup_down');
+positionPopUp('myfood36','popup_down');
+positionPopUp('myfood37','popup_down');
+positionPopUp('myfood38','popup_down');
+positionPopUp('myfood39','popup_down');
+positionPopUp('myfood40','popup_down');
+
+positionPopUp('myfood41','popup_down');
+positionPopUp('myfood42','popup_down');
+positionPopUp('myfood43','popup_down');
+positionPopUp('myfood44','popup_down');
+positionPopUp('myfood45','popup_down');
+positionPopUp('myfood46','popup_down');
+positionPopUp('myfood47','popup_down');
+positionPopUp('myfood48','popup_down');
+positionPopUp('myfood49','popup_down');
+positionPopUp('myfood50','popup_down');
+
+positionPopUp('myfood51','popup_down');
+positionPopUp('myfood52','popup_down');
+positionPopUp('myfood53','popup_down');
+positionPopUp('myfood54','popup_down');
+positionPopUp('myfood55','popup_down');
+positionPopUp('myfood56','popup_down');
+positionPopUp('myfood57','popup_down');
+positionPopUp('myfood58','popup_down');
+positionPopUp('myfood59','popup_down');
+positionPopUp('myfood60','popup_down');
+
+positionPopUp('myfood61','popup_down');
+positionPopUp('myfood62','popup_down');
+positionPopUp('myfood63','popup_down');
+positionPopUp('myfood64','popup_down');
+positionPopUp('myfood65','popup_down');
+positionPopUp('myfood66','popup_down');
+positionPopUp('myfood67','popup_down');
+positionPopUp('myfood68','popup_down');
+positionPopUp('myfood69','popup_down');
+positionPopUp('myfood70','popup_down');
+
+positionPopUp('myfood71','popup_down');
+positionPopUp('myfood72','popup_down');
+positionPopUp('myfood73','popup_down');
+positionPopUp('myfood74','popup_down');
+positionPopUp('myfood75','popup_down');
+positionPopUp('myfood76','popup_down');
+positionPopUp('myfood77','popup_down');
+positionPopUp('myfood78','popup_down');
+positionPopUp('myfood79','popup_down');
+positionPopUp('myfood80','popup_down');
+
+positionPopUp('myfood81','popup_down');
+positionPopUp('myfood82','popup_down');
+positionPopUp('myfood83','popup_down');
+positionPopUp('myfood84','popup_down');
+positionPopUp('myfood85','popup_down');
+
+
 }
 }else{
     console.log('no data found')
