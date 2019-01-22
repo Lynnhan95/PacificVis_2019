@@ -394,8 +394,9 @@ var nutriInfo = [
     {'name':'Vitamin K','percentage':'1%'},
 
     {'name':'Vitamin K','percentage':'16%'},
-    {'name':'Potassium','percentage':'1%'}, 
+    {'name':'Potassium','percentage':'1%'},
     
+   
 
     
 
